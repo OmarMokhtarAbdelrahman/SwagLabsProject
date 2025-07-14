@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-29T00:22:53 EEST" name="Suite" finished-at="2025-06-29T00:23:17 EEST" duration-ms="24192">
+    <groups>
+    </groups>
+    <test started-at="2025-06-29T00:22:53 EEST" name="Submit Order Test" finished-at="2025-06-29T00:23:17 EEST" duration-ms="24192">
+      <class name="Omar.SwagLabsProject.submitOrderTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Omar.SwagLabsProject.submitOrderTest@1a245833]" started-at="2025-06-29T00:22:53 EEST" name="launchApp" finished-at="2025-06-29T00:22:58 EEST" duration-ms="4493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="fullPurchaseTest(java.util.HashMap)[pri:0, instance:Omar.SwagLabsProject.submitOrderTest@1a245833]" started-at="2025-06-29T00:22:58 EEST" name="fullPurchaseTest" data-provider="getData" finished-at="2025-06-29T00:23:01 EEST" duration-ms="3625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Backpack, postalCode=12345}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullPurchaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omar.SwagLabsProject.submitOrderTest@1a245833]" started-at="2025-06-29T00:23:01 EEST" name="tearDown" finished-at="2025-06-29T00:23:02 EEST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Omar.SwagLabsProject.submitOrderTest@1a245833]" started-at="2025-06-29T00:23:02 EEST" name="launchApp" finished-at="2025-06-29T00:23:06 EEST" duration-ms="3624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="fullPurchaseTest(java.util.HashMap)[pri:0, instance:Omar.SwagLabsProject.submitOrderTest@1a245833]" started-at="2025-06-29T00:23:06 EEST" name="fullPurchaseTest" data-provider="getData" finished-at="2025-06-29T00:23:09 EEST" duration-ms="3688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, postalCode=54321}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullPurchaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omar.SwagLabsProject.submitOrderTest@1a245833]" started-at="2025-06-29T00:23:09 EEST" name="tearDown" finished-at="2025-06-29T00:23:10 EEST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Omar.SwagLabsProject.submitOrderTest@1a245833]" started-at="2025-06-29T00:23:10 EEST" name="launchApp" finished-at="2025-06-29T00:23:13 EEST" duration-ms="3107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="fullPurchaseTest(java.util.HashMap)[pri:0, instance:Omar.SwagLabsProject.submitOrderTest@1a245833]" started-at="2025-06-29T00:23:13 EEST" name="fullPurchaseTest" data-provider="getData" finished-at="2025-06-29T00:23:16 EEST" duration-ms="3007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce Labs Bolt T-Shirt, postalCode=67890}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullPurchaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omar.SwagLabsProject.submitOrderTest@1a245833]" started-at="2025-06-29T00:23:16 EEST" name="tearDown" finished-at="2025-06-29T00:23:17 EEST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Omar.SwagLabsProject.submitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>

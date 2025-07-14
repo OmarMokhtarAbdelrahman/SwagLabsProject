@@ -1,0 +1,6 @@
+Omar\PageObjects\LoginPage.class
+Omar\PageObjects\CheckoutPage.class
+Omar\PageObjects\CartPage.class
+Omar\PageObjects\PurchaseInfoPage.class
+Omar\AbstractComponents\AbstractComponent.class
+Omar\PageObjects\ProductsPage.class

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite parallel="tests" name="Suite">
+
+	<groups>
+        <run>
+            <include name="LoginValidations"/>
+        </run>
+     </groups>
+
+<listeners>
+	<listener class-name="Omar.TestComponents.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="Valid Login Test">
+  
+    <classes>
+      <class name="Omar.SwagLabsProject.ValidLoginTests"/>
+    </classes>   
+      
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
