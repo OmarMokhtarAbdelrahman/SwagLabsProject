@@ -17,7 +17,7 @@ import Omar.TestComponents.BaseTest;
 public class SubmittingOrderTests extends BaseTest {
 
 	@Test(dataProvider = "getData" , groups = {"Smoke"},  retryAnalyzer = Omar.TestComponents.RetryConfig.class)
-	public void fullPurchaseTest(HashMap<String , String> inputData) throws InterruptedException {
+	public void fullPurchaseTest(HashMap<String , String> inputData){
 		
 		//System.out.println("Chrome options: " + options.toString());
 

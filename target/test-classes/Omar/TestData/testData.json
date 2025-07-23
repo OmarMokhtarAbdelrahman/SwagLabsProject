@@ -1,0 +1,28 @@
+[
+	
+	{
+		"productName1": "Sauce Labs Backpack",
+		"productName2": "Sauce Labs Fleece Jacket",
+		"firstName": "Omar",
+		"lastName": "Mokhtar",
+		"postalCode": "12345"
+	},
+	
+	{
+		
+		"productName1": "Sauce Labs Bike Light",
+        "productName2": "Sauce Labs Onesie",
+        "firstName": "Ahmed",
+        "lastName": "Ali",
+        "postalCode": "54321"
+    },
+    
+    {
+        "productName1": "Sauce Labs Bolt T-Shirt",
+        "productName2": "Test.allTheThings() T-Shirt (Red)",
+        "firstName": "Sara",
+        "lastName": "Hassan",
+        "postalCode": "67890"
+	}
+	
+]

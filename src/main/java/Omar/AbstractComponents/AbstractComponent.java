@@ -58,7 +58,7 @@ public class AbstractComponent {
 		waitForElementToAppear(sideBar);
 	}
 
-	public void clickAllitemsLink() {
+	public void clickAllItemsLink() {
 		driver.findElement(allItemsLink).click();
 
 	}
@@ -105,16 +105,16 @@ public class AbstractComponent {
 
 	public void goToAllItemsPage() {
 		clickBurgerButton();
-		clickAllitemsLink();
+		clickAllItemsLink();
 	}
 
 	public void goBack() {
 		driver.navigate().back();
 	}
 
-	public double convertStringToDouble(String pricetext) {
+	public double convertStringToDouble(String priceText) {
 
-		double price = Double.parseDouble(pricetext.trim());
+		double price = Double.parseDouble(priceText.trim());
 
 		return price;
 	}
