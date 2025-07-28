@@ -10,13 +10,13 @@
      </groups>
 
 <listeners>
-	<listener class-name="Omar.TestComponents.Listeners"/>
+	<listener class-name="SwagLabs.TestComponents.Listeners"/>
 </listeners>
 
   <test thread-count="5" name="Valid Login Test">
   
     <classes>
-      <class name="Omar.SwagLabsProject.ValidLoginTests"/>
+      <class name="SwagLabs.Tests.ValidLoginTests"/>
     </classes>   
       
   </test> <!-- Test -->

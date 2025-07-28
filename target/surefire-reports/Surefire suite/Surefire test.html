@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/1/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>17/1/2</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 28 22:19:31 EEST 2025</td>
+<td>Started on:</td><td>Mon Jul 28 15:27:33 EEST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>48 seconds (48120 ms)</td>
+<tr><td>Total time:</td><td>138 seconds (138204 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,8 +80,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
 	at Omar.SwagLabsProject.ErrorValidationsTests.lockedOutUserLoginTest(ErrorValidationsTests.java:85)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1638001196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1638001196'><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace783130773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace783130773'><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -121,8 +121,8 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>0</td>
-<td>Omar.SwagLabsProject.ErrorValidationsTests@48e4374</td></tr>
+<td>1</td>
+<td>Omar.SwagLabsProject.ErrorValidationsTests@2cf3d63b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -133,70 +133,90 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Omar.SwagLabsProject.submitOrderTest.fullPurchaseTest()'><b>fullPurchaseTest</b><br>Test class: Omar.SwagLabsProject.submitOrderTest<br>Parameters: {productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Backpack, postalCode=12345}</td>
+<td title='Omar.SwagLabsProject.AddingAndRemovingProductsTest.addAndRemoveProductFromProductDetailsPageTest()'><b>addAndRemoveProductFromProductDetailsPageTest</b><br>Test class: Omar.SwagLabsProject.AddingAndRemovingProductsTest</td>
 <td></td>
-<td>2</td>
-<td>Omar.SwagLabsProject.submitOrderTest@5e82df6a</td></tr>
+<td>3</td>
+<td>Omar.SwagLabsProject.AddingAndRemovingProductsTest@13e344d</td></tr>
+<tr>
+<td title='Omar.SwagLabsProject.SubmittingOrderTests.fullPurchaseTest()'><b>fullPurchaseTest</b><br>Test class: Omar.SwagLabsProject.SubmittingOrderTests<br>Parameters: {productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce Labs Bolt T-Shirt, postalCode=67890}</td>
+<td></td>
+<td>3</td>
+<td>Omar.SwagLabsProject.SubmittingOrderTests@7674f035</td></tr>
+<tr>
+<td title='Omar.SwagLabsProject.SubmittingOrderTests.fullPurchaseTest()'><b>fullPurchaseTest</b><br>Test class: Omar.SwagLabsProject.SubmittingOrderTests<br>Parameters: {productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Backpack, postalCode=12345}</td>
+<td></td>
+<td>3</td>
+<td>Omar.SwagLabsProject.SubmittingOrderTests@7674f035</td></tr>
 <tr>
 <td title='Omar.SwagLabsProject.ErrorValidationsTests.emptyPostalCodeInCheckoutTest()'><b>emptyPostalCodeInCheckoutTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
 <td></td>
+<td>2</td>
+<td>Omar.SwagLabsProject.ErrorValidationsTests@2cf3d63b</td></tr>
+<tr>
+<td title='Omar.SwagLabsProject.ValidLoginTests.validProblemUserLoginTest()'><b>validProblemUserLoginTest</b><br>Test class: Omar.SwagLabsProject.ValidLoginTests</td>
+<td></td>
 <td>1</td>
-<td>Omar.SwagLabsProject.ErrorValidationsTests@48e4374</td></tr>
+<td>Omar.SwagLabsProject.ValidLoginTests@69e153c5</td></tr>
+<tr>
+<td title='Omar.SwagLabsProject.ErrorValidationsTests.emptyLastNameInCheckoutTest()'><b>emptyLastNameInCheckoutTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
+<td></td>
+<td>2</td>
+<td>Omar.SwagLabsProject.ErrorValidationsTests@2cf3d63b</td></tr>
+<tr>
+<td title='Omar.SwagLabsProject.CheckingCartAfterLogoutTests.CheckingOnProductsAfterLogoutTest()'><b>CheckingOnProductsAfterLogoutTest</b><br>Test class: Omar.SwagLabsProject.CheckingCartAfterLogoutTests</td>
+<td></td>
+<td>3</td>
+<td>Omar.SwagLabsProject.CheckingCartAfterLogoutTests@470734c3</td></tr>
 <tr>
 <td title='Omar.SwagLabsProject.ErrorValidationsTests.blankUsernameLoginTest()'><b>blankUsernameLoginTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
 <td></td>
 <td>0</td>
-<td>Omar.SwagLabsProject.ErrorValidationsTests@48e4374</td></tr>
-<tr>
-<td title='Omar.SwagLabsProject.ErrorValidationsTests.emptyLastNameInCheckoutTest()'><b>emptyLastNameInCheckoutTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
-<td></td>
-<td>1</td>
-<td>Omar.SwagLabsProject.ErrorValidationsTests@48e4374</td></tr>
-<tr>
-<td title='Omar.SwagLabsProject.ErrorValidationsTests.blankPasswordLoginTest()'><b>blankPasswordLoginTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
-<td></td>
-<td>0</td>
-<td>Omar.SwagLabsProject.ErrorValidationsTests@48e4374</td></tr>
-<tr>
-<td title='Omar.SwagLabsProject.submitOrderTest.fullPurchaseTest()'><b>fullPurchaseTest</b><br>Test class: Omar.SwagLabsProject.submitOrderTest<br>Parameters: {productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce Labs Bolt T-Shirt, postalCode=67890}</td>
-<td></td>
-<td>2</td>
-<td>Omar.SwagLabsProject.submitOrderTest@5e82df6a</td></tr>
-<tr>
-<td title='Omar.SwagLabsProject.ErrorValidationsTests.emptyFirstNameInCheckoutTest()'><b>emptyFirstNameInCheckoutTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
-<td></td>
-<td>1</td>
-<td>Omar.SwagLabsProject.ErrorValidationsTests@48e4374</td></tr>
-<tr>
-<td title='Omar.SwagLabsProject.submitOrderTest.fullPurchaseTest()'><b>fullPurchaseTest</b><br>Test class: Omar.SwagLabsProject.submitOrderTest<br>Parameters: {productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, postalCode=54321}</td>
-<td></td>
-<td>2</td>
-<td>Omar.SwagLabsProject.submitOrderTest@5e82df6a</td></tr>
-<tr>
-<td title='Omar.SwagLabsProject.ValidLoginTests.validProblemUserLoginTest()'><b>validProblemUserLoginTest</b><br>Test class: Omar.SwagLabsProject.ValidLoginTests</td>
-<td></td>
-<td>0</td>
-<td>Omar.SwagLabsProject.ValidLoginTests@3f197a46</td></tr>
+<td>Omar.SwagLabsProject.ErrorValidationsTests@2cf3d63b</td></tr>
 <tr>
 <td title='Omar.SwagLabsProject.ValidLoginTests.validPerformanceUserLoginTest()'><b>validPerformanceUserLoginTest</b><br>Test class: Omar.SwagLabsProject.ValidLoginTests</td>
 <td></td>
-<td>6</td>
-<td>Omar.SwagLabsProject.ValidLoginTests@3f197a46</td></tr>
+<td>9</td>
+<td>Omar.SwagLabsProject.ValidLoginTests@69e153c5</td></tr>
 <tr>
-<td title='Omar.SwagLabsProject.ErrorValidationsTests.invalidUsernameLoginTest()'><b>invalidUsernameLoginTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
+<td title='Omar.SwagLabsProject.SubmittingOrderTests.fullPurchaseTest()'><b>fullPurchaseTest</b><br>Test class: Omar.SwagLabsProject.SubmittingOrderTests<br>Parameters: {productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, postalCode=54321}</td>
 <td></td>
-<td>0</td>
-<td>Omar.SwagLabsProject.ErrorValidationsTests@48e4374</td></tr>
+<td>5</td>
+<td>Omar.SwagLabsProject.SubmittingOrderTests@7674f035</td></tr>
 <tr>
 <td title='Omar.SwagLabsProject.ErrorValidationsTests.invalidPasswordLoginTest()'><b>invalidPasswordLoginTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
 <td></td>
-<td>0</td>
-<td>Omar.SwagLabsProject.ErrorValidationsTests@48e4374</td></tr>
+<td>1</td>
+<td>Omar.SwagLabsProject.ErrorValidationsTests@2cf3d63b</td></tr>
+<tr>
+<td title='Omar.SwagLabsProject.ErrorValidationsTests.blankPasswordLoginTest()'><b>blankPasswordLoginTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
+<td></td>
+<td>1</td>
+<td>Omar.SwagLabsProject.ErrorValidationsTests@2cf3d63b</td></tr>
 <tr>
 <td title='Omar.SwagLabsProject.ValidLoginTests.validStandardUserLoginTest()'><b>validStandardUserLoginTest</b><br>Test class: Omar.SwagLabsProject.ValidLoginTests</td>
 <td></td>
 <td>1</td>
-<td>Omar.SwagLabsProject.ValidLoginTests@3f197a46</td></tr>
+<td>Omar.SwagLabsProject.ValidLoginTests@69e153c5</td></tr>
+<tr>
+<td title='Omar.SwagLabsProject.AddingAndRemovingProductsTest.removeProductFromProductPageTest()'><b>removeProductFromProductPageTest</b><br>Test class: Omar.SwagLabsProject.AddingAndRemovingProductsTest</td>
+<td></td>
+<td>4</td>
+<td>Omar.SwagLabsProject.AddingAndRemovingProductsTest@13e344d</td></tr>
+<tr>
+<td title='Omar.SwagLabsProject.ErrorValidationsTests.emptyFirstNameInCheckoutTest()'><b>emptyFirstNameInCheckoutTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
+<td></td>
+<td>3</td>
+<td>Omar.SwagLabsProject.ErrorValidationsTests@2cf3d63b</td></tr>
+<tr>
+<td title='Omar.SwagLabsProject.AddingAndRemovingProductsTest.addAndRemoveProductFromCartTest()'><b>addAndRemoveProductFromCartTest</b><br>Test class: Omar.SwagLabsProject.AddingAndRemovingProductsTest</td>
+<td></td>
+<td>3</td>
+<td>Omar.SwagLabsProject.AddingAndRemovingProductsTest@13e344d</td></tr>
+<tr>
+<td title='Omar.SwagLabsProject.ErrorValidationsTests.invalidUsernameLoginTest()'><b>invalidUsernameLoginTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
+<td></td>
+<td>0</td>
+<td>Omar.SwagLabsProject.ErrorValidationsTests@2cf3d63b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -211,8 +231,56 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
 	at Omar.SwagLabsProject.ErrorValidationsTests.lockedOutUserLoginTest(ErrorValidationsTests.java:85)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace810557024", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace810557024'><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1651318806", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1651318806'><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at Omar.SwagLabsProject.ErrorValidationsTests.lockedOutUserLoginTest(ErrorValidationsTests.java:85)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>1</td>
+<td>Omar.SwagLabsProject.ErrorValidationsTests@2cf3d63b</td></tr>
+<tr>
+<td title='Omar.SwagLabsProject.ErrorValidationsTests.lockedOutUserLoginTest()'><b>lockedOutUserLoginTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
+<td><div><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
+	at Omar.SwagLabsProject.ErrorValidationsTests.lockedOutUserLoginTest(ErrorValidationsTests.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace80504258", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace80504258'><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -253,55 +321,7 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>Omar.SwagLabsProject.ErrorValidationsTests@48e4374</td></tr>
-<tr>
-<td title='Omar.SwagLabsProject.ErrorValidationsTests.lockedOutUserLoginTest()'><b>lockedOutUserLoginTest</b><br>Test class: Omar.SwagLabsProject.ErrorValidationsTests</td>
-<td><div><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
-	at Omar.SwagLabsProject.ErrorValidationsTests.lockedOutUserLoginTest(ErrorValidationsTests.java:85)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1998371610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1998371610'><pre>java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at Omar.SwagLabsProject.ErrorValidationsTests.lockedOutUserLoginTest(ErrorValidationsTests.java:85)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>Omar.SwagLabsProject.ErrorValidationsTests@48e4374</td></tr>
+<td>Omar.SwagLabsProject.ErrorValidationsTests@2cf3d63b</td></tr>
 </table><p>
 </body>
 </html>

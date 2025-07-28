@@ -10,30 +10,30 @@
      </groups>
 
 <listeners>
-	<listener class-name="Omar.TestComponents.Listeners"/>
+	<listener class-name="SwagLabs.TestComponents.Listeners"/>
 </listeners>
 
   <test thread-count="5" name="Validation Full Order Test">
     <classes>
-      <class name="Omar.SwagLabsProject.SubmittingOrderTests"/>
+      <class name="SwagLabs.Tests.SubmittingOrderTests"/>
     </classes>   
   </test>
   
   <test thread-count="5" name="Validating Adding and Removing items Test">
     <classes>
-      <class name="Omar.SwagLabsProject.AddingAndRemovingProducts"/>
+      <class name="SwagLabs.Tests.AddingAndRemovingProductsTest"/>
     </classes>   
   </test>
   
   <test thread-count="5" name="Validating Logins Test">
     <classes>
-      <class name="Omar.SwagLabsProject.ValidLoginTests"/>
+      <class name="SwagLabs.Tests.ValidLoginTests"/>
     </classes>   
   </test>
   
   <test thread-count="5" name="Adding and Removing Products Functionality Test">
    	<classes>
-    	<class name="Omar.SwagLabsProject.CheckingCartAfterLogout"/>
+    	<class name="SwagLabs.Tests.CheckingCartAfterLogoutTests"/>
     </classes>
   </test>
   

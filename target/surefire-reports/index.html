@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\eclipse-workspace\SwagLabsProject\TestNG_Suites\SmokeTests.xml</span>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">4 tests</span>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>3 groups</span>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>5 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,66 +92,134 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,  10 skipped,  </span>
+                    <span class="method-stats">20 methods, 1 failed,  2 skipped,  17 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Suite">
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ErrorValidationsTests" class="method navigator-link" hash-for-method="lockedOutUserLoginTest">lockedOutUserLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Omar.SwagLabsProject.CheckingCartAfterLogout" class="method navigator-link" hash-for-method="CheckoingOnProductsAfterLogoutTest">CheckoingOnProductsAfterLogoutTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ErrorValidationsTests" class="method navigator-link" hash-for-method="lockedOutUserLoginTest">lockedOutUserLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Omar.SwagLabsProject.AddingAndRemovingProducts" class="method navigator-link" hash-for-method="addAndRemoveProductFromCartTest">addAndRemoveProductFromCartTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ErrorValidationsTests" class="method navigator-link" hash-for-method="lockedOutUserLoginTest">lockedOutUserLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.CheckingCartAfterLogoutTests" class="method navigator-link" hash-for-method="CheckingOnProductsAfterLogoutTest">CheckingOnProductsAfterLogoutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Omar.SwagLabsProject.AddingAndRemovingProducts" class="method navigator-link" hash-for-method="addAndRemoveProductFromProductDetailsPageTest">addAndRemoveProductFromProductDetailsPageTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.AddingAndRemovingProductsTest" class="method navigator-link" hash-for-method="addAndRemoveProductFromCartTest">addAndRemoveProductFromCartTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Omar.SwagLabsProject.SubmittingOrderTests" class="method navigator-link" hash-for-method="fullPurchaseTest({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, ...)">fullPurchaseTest({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, ...)</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.AddingAndRemovingProductsTest" class="method navigator-link" hash-for-method="addAndRemoveProductFromProductDetailsPageTest">addAndRemoveProductFromProductDetailsPageTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Omar.SwagLabsProject.SubmittingOrderTests" class="method navigator-link" hash-for-method="fullPurchaseTest({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce...)">fullPurchaseTest({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce...)</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ErrorValidationsTests" class="method navigator-link" hash-for-method="blankPasswordLoginTest">blankPasswordLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Omar.SwagLabsProject.SubmittingOrderTests" class="method navigator-link" hash-for-method="fullPurchaseTest({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Ba...)">fullPurchaseTest({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Ba...)</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ErrorValidationsTests" class="method navigator-link" hash-for-method="blankUsernameLoginTest">blankUsernameLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Omar.SwagLabsProject.AddingAndRemovingProducts" class="method navigator-link" hash-for-method="removeProductFromProductPageTest">removeProductFromProductPageTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ErrorValidationsTests" class="method navigator-link" hash-for-method="emptyFirstNameInCheckoutTest">emptyFirstNameInCheckoutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Omar.SwagLabsProject.ValidLoginTests" class="method navigator-link" hash-for-method="validPerformanceUserLoginTest">validPerformanceUserLoginTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ErrorValidationsTests" class="method navigator-link" hash-for-method="emptyLastNameInCheckoutTest">emptyLastNameInCheckoutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Omar.SwagLabsProject.ValidLoginTests" class="method navigator-link" hash-for-method="validProblemUserLoginTest">validProblemUserLoginTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ErrorValidationsTests" class="method navigator-link" hash-for-method="emptyPostalCodeInCheckoutTest">emptyPostalCodeInCheckoutTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Omar.SwagLabsProject.ValidLoginTests" class="method navigator-link" hash-for-method="validStandardUserLoginTest">validStandardUserLoginTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.SubmittingOrderTests" class="method navigator-link" hash-for-method="fullPurchaseTest({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce...)">fullPurchaseTest({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.SubmittingOrderTests" class="method navigator-link" hash-for-method="fullPurchaseTest({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Ba...)">fullPurchaseTest({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Ba...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.SubmittingOrderTests" class="method navigator-link" hash-for-method="fullPurchaseTest({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, ...)">fullPurchaseTest({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ErrorValidationsTests" class="method navigator-link" hash-for-method="invalidPasswordLoginTest">invalidPasswordLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ErrorValidationsTests" class="method navigator-link" hash-for-method="invalidUsernameLoginTest">invalidUsernameLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.AddingAndRemovingProductsTest" class="method navigator-link" hash-for-method="removeProductFromProductPageTest">removeProductFromProductPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ValidLoginTests" class="method navigator-link" hash-for-method="validPerformanceUserLoginTest">validPerformanceUserLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ValidLoginTests" class="method navigator-link" hash-for-method="validProblemUserLoginTest">validProblemUserLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Omar.SwagLabsProject.ValidLoginTests" class="method navigator-link" hash-for-method="validStandardUserLoginTest">validStandardUserLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -162,32 +230,63 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">Omar.SwagLabsProject.CheckingCartAfterLogout</span>
+              <img src="failed.png"/>
+              <span class="class-name">Omar.SwagLabsProject.ErrorValidationsTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CheckoingOnProductsAfterLogoutTest">
-                  </a> <!-- CheckoingOnProductsAfterLogoutTest -->
-                  <span class="method-name">CheckoingOnProductsAfterLogoutTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
-	at Omar.TestComponents.BaseTest.intializeDriver(BaseTest.java:71)
-	at Omar.TestComponents.BaseTest.launchApp(BaseTest.java:80)
+                  <a name="lockedOutUserLoginTest">
+                  </a> <!-- lockedOutUserLoginTest -->
+                  <span class="method-name">lockedOutUserLoginTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
+	at Omar.SwagLabsProject.ErrorValidationsTests.lockedOutUserLoginTest(ErrorValidationsTests.java:85)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 33 stack frames
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">Omar.SwagLabsProject.AddingAndRemovingProducts</span>
+              <span class="class-name">Omar.SwagLabsProject.ErrorValidationsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="lockedOutUserLoginTest">
+                  </a> <!-- lockedOutUserLoginTest -->
+                  <span class="method-name">lockedOutUserLoginTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
+	at Omar.SwagLabsProject.ErrorValidationsTests.lockedOutUserLoginTest(ErrorValidationsTests.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lockedOutUserLoginTest">
+                  </a> <!-- lockedOutUserLoginTest -->
+                  <span class="method-name">lockedOutUserLoginTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
+	at Omar.SwagLabsProject.ErrorValidationsTests.lockedOutUserLoginTest(ErrorValidationsTests.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Omar.SwagLabsProject.AddingAndRemovingProductsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -195,12 +294,6 @@
                   <a name="addAndRemoveProductFromCartTest">
                   </a> <!-- addAndRemoveProductFromCartTest -->
                   <span class="method-name">addAndRemoveProductFromCartTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
-	at Omar.TestComponents.BaseTest.intializeDriver(BaseTest.java:71)
-	at Omar.TestComponents.BaseTest.launchApp(BaseTest.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -208,11 +301,6 @@
                   <a name="addAndRemoveProductFromProductDetailsPageTest">
                   </a> <!-- addAndRemoveProductFromProductDetailsPageTest -->
                   <span class="method-name">addAndRemoveProductFromProductDetailsPageTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
-	at Omar.TestComponents.BaseTest.tearDown(BaseTest.java:90)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -220,68 +308,70 @@
                   <a name="removeProductFromProductPageTest">
                   </a> <!-- removeProductFromProductPageTest -->
                   <span class="method-name">removeProductFromProductPageTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
-	at Omar.TestComponents.BaseTest.tearDown(BaseTest.java:90)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">Omar.SwagLabsProject.SubmittingOrderTests</span>
+              <img src="passed.png"/>
+              <span class="class-name">Omar.SwagLabsProject.ErrorValidationsTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="fullPurchaseTest({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, ...)">
-                  </a> <!-- fullPurchaseTest({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, ...) -->
-                  <span class="method-name">fullPurchaseTest</span>
-                  <span class="parameters">({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, postalCode=54321})</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
-	at Omar.TestComponents.BaseTest.intializeDriver(BaseTest.java:71)
-	at Omar.TestComponents.BaseTest.launchApp(BaseTest.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
+                  <a name="blankPasswordLoginTest">
+                  </a> <!-- blankPasswordLoginTest -->
+                  <span class="method-name">blankPasswordLoginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="fullPurchaseTest({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce...)">
-                  </a> <!-- fullPurchaseTest({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce...) -->
-                  <span class="method-name">fullPurchaseTest</span>
-                  <span class="parameters">({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce Labs Bolt T-Shirt, postalCode=67890})</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
-	at Omar.TestComponents.BaseTest.intializeDriver(BaseTest.java:71)
-	at Omar.TestComponents.BaseTest.launchApp(BaseTest.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
+                  <a name="blankUsernameLoginTest">
+                  </a> <!-- blankUsernameLoginTest -->
+                  <span class="method-name">blankUsernameLoginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="fullPurchaseTest({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Ba...)">
-                  </a> <!-- fullPurchaseTest({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Ba...) -->
-                  <span class="method-name">fullPurchaseTest</span>
-                  <span class="parameters">({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Backpack, postalCode=12345})</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
-	at Omar.TestComponents.BaseTest.intializeDriver(BaseTest.java:71)
-	at Omar.TestComponents.BaseTest.launchApp(BaseTest.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
+                  <a name="emptyFirstNameInCheckoutTest">
+                  </a> <!-- emptyFirstNameInCheckoutTest -->
+                  <span class="method-name">emptyFirstNameInCheckoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyLastNameInCheckoutTest">
+                  </a> <!-- emptyLastNameInCheckoutTest -->
+                  <span class="method-name">emptyLastNameInCheckoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyPostalCodeInCheckoutTest">
+                  </a> <!-- emptyPostalCodeInCheckoutTest -->
+                  <span class="method-name">emptyPostalCodeInCheckoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPasswordLoginTest">
+                  </a> <!-- invalidPasswordLoginTest -->
+                  <span class="method-name">invalidPasswordLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameLoginTest">
+                  </a> <!-- invalidUsernameLoginTest -->
+                  <span class="method-name">invalidUsernameLoginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">Omar.SwagLabsProject.ValidLoginTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -290,12 +380,6 @@
                   <a name="validPerformanceUserLoginTest">
                   </a> <!-- validPerformanceUserLoginTest -->
                   <span class="method-name">validPerformanceUserLoginTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
-	at Omar.TestComponents.BaseTest.intializeDriver(BaseTest.java:71)
-	at Omar.TestComponents.BaseTest.launchApp(BaseTest.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -303,11 +387,6 @@
                   <a name="validProblemUserLoginTest">
                   </a> <!-- validProblemUserLoginTest -->
                   <span class="method-name">validProblemUserLoginTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
-	at Omar.TestComponents.BaseTest.tearDown(BaseTest.java:90)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -315,88 +394,137 @@
                   <a name="validStandardUserLoginTest">
                   </a> <!-- validStandardUserLoginTest -->
                   <span class="method-name">validStandardUserLoginTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
-	at Omar.TestComponents.BaseTest.tearDown(BaseTest.java:90)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-        </div> <!-- panel Suite -->
-        <div panel-name="test-xml-Suite" class="panel">
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Omar.SwagLabsProject.CheckingCartAfterLogoutTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckingOnProductsAfterLogoutTest">
+                  </a> <!-- CheckingOnProductsAfterLogoutTest -->
+                  <span class="method-name">CheckingOnProductsAfterLogoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Omar.SwagLabsProject.SubmittingOrderTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fullPurchaseTest({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce...)">
+                  </a> <!-- fullPurchaseTest({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce...) -->
+                  <span class="method-name">fullPurchaseTest</span>
+                  <span class="parameters">({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce Labs Bolt T-Shirt, postalCode=67890})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fullPurchaseTest({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Ba...)">
+                  </a> <!-- fullPurchaseTest({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Ba...) -->
+                  <span class="method-name">fullPurchaseTest</span>
+                  <span class="parameters">({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Backpack, postalCode=12345})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fullPurchaseTest({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, ...)">
+                  </a> <!-- fullPurchaseTest({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, ...) -->
+                  <span class="method-name">fullPurchaseTest</span>
+                  <span class="parameters">({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, postalCode=54321})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\eclipse-workspace\SwagLabsProject\TestNG_Suites\SmokeTests.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;Smoke&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;Smoke&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;Omar.TestComponents.Listeners&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Validation Full Order Test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;Omar.SwagLabsProject.AddingAndRemovingProductsTest&quot;/&gt;
+      &lt;class name=&quot;Omar.SwagLabsProject.CheckingCartAfterLogoutTests&quot;/&gt;
+      &lt;class name=&quot;Omar.SwagLabsProject.ErrorValidationsTests&quot;/&gt;
       &lt;class name=&quot;Omar.SwagLabsProject.SubmittingOrderTests&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Validation Full Order Test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Validating Adding and Removing items Test&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Omar.SwagLabsProject.AddingAndRemovingProducts&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Validating Adding and Removing items Test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Validating Logins Test&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
       &lt;class name=&quot;Omar.SwagLabsProject.ValidLoginTests&quot;/&gt;
+      &lt;class name=&quot;Omar.TestComponents.BaseTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Validating Logins Test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Adding and Removing Products Functionality Test&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Omar.SwagLabsProject.CheckingCartAfterLogout&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Adding and Removing Products Functionality Test --&gt;
-&lt;/suite&gt; &lt;!-- Suite --&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Suite" class="panel">
+        <div panel-name="testlist-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Suite</span>
+            <span class="header-content">Tests for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Validation Full Order Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Validating Adding and Removing items Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Validating Logins Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Adding and Removing Products Functionality Test (1 class)</span>
+                <span class="test-name">Surefire test (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Suite" class="panel">
+        <div panel-name="group-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Suite</span>
+            <span class="header-content">Groups for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Checkout Error Validations</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">emptyFirstNameInCheckoutTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">emptyLastNameInCheckoutTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">emptyPostalCodeInCheckoutTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Login Error Validations</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">blankPasswordLoginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">blankUsernameLoginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidPasswordLoginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidUsernameLoginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">lockedOutUserLoginTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">Login Validations</span>
               <br/>
@@ -421,7 +549,7 @@
               <span class="test-group-name">Smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">CheckoingOnProductsAfterLogoutTest</span>
+                <span class="method-in-group-name">CheckingOnProductsAfterLogoutTest</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -455,261 +583,386 @@
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Suite" class="panel">
+        <div panel-name="times-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Suite</span>
+            <span class="header-content">Times for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Suite');
-function tableData_Suite() {
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(20);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'fullPurchaseTest')
-data.setCell(0, 2, 'Omar.SwagLabsProject.SubmittingOrderTests')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'validPerformanceUserLoginTest')
+data.setCell(0, 2, 'Omar.SwagLabsProject.ValidLoginTests')
+data.setCell(0, 3, 9351);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'fullPurchaseTest')
 data.setCell(1, 2, 'Omar.SwagLabsProject.SubmittingOrderTests')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 5298);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'fullPurchaseTest')
-data.setCell(2, 2, 'Omar.SwagLabsProject.SubmittingOrderTests')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'removeProductFromProductPageTest')
+data.setCell(2, 2, 'Omar.SwagLabsProject.AddingAndRemovingProductsTest')
+data.setCell(2, 3, 4024);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'addAndRemoveProductFromCartTest')
-data.setCell(3, 2, 'Omar.SwagLabsProject.AddingAndRemovingProducts')
-data.setCell(3, 3, 0);
+data.setCell(3, 2, 'Omar.SwagLabsProject.AddingAndRemovingProductsTest')
+data.setCell(3, 3, 3904);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'removeProductFromProductPageTest')
-data.setCell(4, 2, 'Omar.SwagLabsProject.AddingAndRemovingProducts')
-data.setCell(4, 3, 0);
+data.setCell(4, 1, 'fullPurchaseTest')
+data.setCell(4, 2, 'Omar.SwagLabsProject.SubmittingOrderTests')
+data.setCell(4, 3, 3802);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'addAndRemoveProductFromProductDetailsPageTest')
-data.setCell(5, 2, 'Omar.SwagLabsProject.AddingAndRemovingProducts')
-data.setCell(5, 3, 0);
+data.setCell(5, 2, 'Omar.SwagLabsProject.AddingAndRemovingProductsTest')
+data.setCell(5, 3, 3784);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validProblemUserLoginTest')
-data.setCell(6, 2, 'Omar.SwagLabsProject.ValidLoginTests')
-data.setCell(6, 3, 0);
+data.setCell(6, 1, 'fullPurchaseTest')
+data.setCell(6, 2, 'Omar.SwagLabsProject.SubmittingOrderTests')
+data.setCell(6, 3, 3650);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validPerformanceUserLoginTest')
-data.setCell(7, 2, 'Omar.SwagLabsProject.ValidLoginTests')
-data.setCell(7, 3, 0);
+data.setCell(7, 1, 'emptyFirstNameInCheckoutTest')
+data.setCell(7, 2, 'Omar.SwagLabsProject.ErrorValidationsTests')
+data.setCell(7, 3, 3403);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'validStandardUserLoginTest')
-data.setCell(8, 2, 'Omar.SwagLabsProject.ValidLoginTests')
-data.setCell(8, 3, 0);
+data.setCell(8, 1, 'CheckingOnProductsAfterLogoutTest')
+data.setCell(8, 2, 'Omar.SwagLabsProject.CheckingCartAfterLogoutTests')
+data.setCell(8, 3, 3316);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'CheckoingOnProductsAfterLogoutTest')
-data.setCell(9, 2, 'Omar.SwagLabsProject.CheckingCartAfterLogout')
-data.setCell(9, 3, 0);
-window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+data.setCell(9, 1, 'emptyPostalCodeInCheckoutTest')
+data.setCell(9, 2, 'Omar.SwagLabsProject.ErrorValidationsTests')
+data.setCell(9, 3, 2929);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'emptyLastNameInCheckoutTest')
+data.setCell(10, 2, 'Omar.SwagLabsProject.ErrorValidationsTests')
+data.setCell(10, 3, 2581);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validProblemUserLoginTest')
+data.setCell(11, 2, 'Omar.SwagLabsProject.ValidLoginTests')
+data.setCell(11, 3, 1988);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validStandardUserLoginTest')
+data.setCell(12, 2, 'Omar.SwagLabsProject.ValidLoginTests')
+data.setCell(12, 3, 1920);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'lockedOutUserLoginTest')
+data.setCell(13, 2, 'Omar.SwagLabsProject.ErrorValidationsTests')
+data.setCell(13, 3, 1729);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'invalidPasswordLoginTest')
+data.setCell(14, 2, 'Omar.SwagLabsProject.ErrorValidationsTests')
+data.setCell(14, 3, 1583);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'blankPasswordLoginTest')
+data.setCell(15, 2, 'Omar.SwagLabsProject.ErrorValidationsTests')
+data.setCell(15, 3, 1516);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'lockedOutUserLoginTest')
+data.setCell(16, 2, 'Omar.SwagLabsProject.ErrorValidationsTests')
+data.setCell(16, 3, 1488);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'lockedOutUserLoginTest')
+data.setCell(17, 2, 'Omar.SwagLabsProject.ErrorValidationsTests')
+data.setCell(17, 3, 525);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'invalidUsernameLoginTest')
+data.setCell(18, 2, 'Omar.SwagLabsProject.ErrorValidationsTests')
+data.setCell(18, 3, 521);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'blankUsernameLoginTest')
+data.setCell(19, 2, 'Omar.SwagLabsProject.ErrorValidationsTests')
+data.setCell(19, 3, 445);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
-              <div id="times-div-Suite">
-              </div> <!-- times-div-Suite -->
+              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Suite" class="panel">
+        <div panel-name="reporter-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Suite</span>
+            <span class="header-content">Reporter output for Surefire suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Suite" class="panel">
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Suite" class="panel">
+        <div panel-name="chronological-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Omar.SwagLabsProject.SubmittingOrderTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Omar.SwagLabsProject.AddingAndRemovingProductsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchApp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">fullPurchaseTest({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Ba...)</span>
-                <span class="method-start">168 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown</span>
-                <span class="method-start">188 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">launchApp</span>
-                <span class="method-start">537 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">fullPurchaseTest({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, ...)</span>
-                <span class="method-start">543 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown</span>
-                <span class="method-start">551 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">launchApp</span>
-                <span class="method-start">558 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">fullPurchaseTest({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce...)</span>
-                <span class="method-start">591 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown</span>
-                <span class="method-start">593 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Omar.SwagLabsProject.AddingAndRemovingProducts</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">launchApp</span>
-                <span class="method-start">951 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <span class="method-name">addAndRemoveProductFromCartTest</span>
-                <span class="method-start">960 ms</span>
+                <span class="method-start">9959 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">967 ms</span>
+                <span class="method-start">13892 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchApp</span>
-                <span class="method-start">977 ms</span>
+                <span class="method-start">14632 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addAndRemoveProductFromProductDetailsPageTest</span>
-                <span class="method-start">984 ms</span>
+                <span class="method-start">16925 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">985 ms</span>
+                <span class="method-start">20711 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchApp</span>
-                <span class="method-start">996 ms</span>
+                <span class="method-start">21048 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">removeProductFromProductPageTest</span>
-                <span class="method-start">1005 ms</span>
+                <span class="method-start">24363 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28398 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Omar.SwagLabsProject.CheckingCartAfterLogoutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">29340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckingOnProductsAfterLogoutTest</span>
+                <span class="method-start">31351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34668 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Omar.SwagLabsProject.ErrorValidationsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">35530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankPasswordLoginTest</span>
+                <span class="method-start">38475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39993 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">45260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankUsernameLoginTest</span>
+                <span class="method-start">47881 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48331 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">48894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyFirstNameInCheckoutTest</span>
+                <span class="method-start">51109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54514 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">57081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyLastNameInCheckoutTest</span>
+                <span class="method-start">60136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62717 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">63256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyPostalCodeInCheckoutTest</span>
+                <span class="method-start">65486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">69696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidPasswordLoginTest</span>
+                <span class="method-start">72664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">75455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameLoginTest</span>
+                <span class="method-start">77551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">78360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lockedOutUserLoginTest</span>
+                <span class="method-start">80389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80927 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">81485 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lockedOutUserLoginTest</span>
+                <span class="method-start">83863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">86236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">lockedOutUserLoginTest</span>
+                <span class="method-start">89055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">1008 ms</span>
+                <span class="method-start">90796 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Omar.SwagLabsProject.SubmittingOrderTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">91772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fullPurchaseTest({productName2=Sauce Labs Fleece Jacket, firstName=Omar, lastName=Mokhtar, productName1=Sauce Labs Ba...)</span>
+                <span class="method-start">93813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">97621 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">99255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fullPurchaseTest({productName2=Sauce Labs Onesie, firstName=Ahmed, lastName=Ali, productName1=Sauce Labs Bike Light, ...)</span>
+                <span class="method-start">101518 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106816 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">107384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fullPurchaseTest({productName2=Test.allTheThings() T-Shirt (Red), firstName=Sara, lastName=Hassan, productName1=Sauce...)</span>
+                <span class="method-start">109609 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113261 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Omar.SwagLabsProject.ValidLoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchApp</span>
-                <span class="method-start">1041 ms</span>
+                <span class="method-start">113717 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validPerformanceUserLoginTest</span>
-                <span class="method-start">1051 ms</span>
+                <span class="method-start">116688 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">1060 ms</span>
+                <span class="method-start">126043 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchApp</span>
-                <span class="method-start">1084 ms</span>
+                <span class="method-start">126560 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validProblemUserLoginTest</span>
-                <span class="method-start">1096 ms</span>
+                <span class="method-start">129093 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">1101 ms</span>
+                <span class="method-start">131084 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchApp</span>
-                <span class="method-start">1102 ms</span>
+                <span class="method-start">132968 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">tearDown</span>
-                <span class="method-start">1110 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">validStandardUserLoginTest</span>
-                <span class="method-start">1110 ms</span>
+                <span class="method-start">135607 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Omar.SwagLabsProject.CheckingCartAfterLogout</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">launchApp</span>
-                <span class="method-start">1135 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">1143 ms</span>
+                <span class="method-start">137537 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">CheckoingOnProductsAfterLogoutTest</span>
-                <span class="method-start">1143 ms</span>
-              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

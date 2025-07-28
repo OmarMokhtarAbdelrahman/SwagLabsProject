@@ -1,3 +1,4 @@
+Omar\PageObjects\ProductDetailsPage.class
 Omar\PageObjects\LoginPage.class
 Omar\PageObjects\CheckoutPage.class
 Omar\PageObjects\CartPage.class

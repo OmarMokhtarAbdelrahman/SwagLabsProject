@@ -4,13 +4,13 @@
 <suite parallel="tests" name="Suite">
 
 <listeners>
-	<listener class-name="Omar.TestComponents.Listeners"/>
+	<listener class-name="SwagLabs.TestComponents.Listeners"/>
 </listeners>
 
 
   <test thread-count="5" name="Submit Order Test">
     <classes>
-      <class name="Omar.SwagLabsProject.SubmittingOrderTests"/>
+      <class name="SwagLabs.Tests.SubmittingOrderTests"/>
       
     </classes>     
   </test> <!-- Test -->

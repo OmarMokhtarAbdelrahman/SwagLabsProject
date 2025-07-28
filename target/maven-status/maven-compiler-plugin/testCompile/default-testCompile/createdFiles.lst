@@ -1,6 +1,9 @@
+Omar\SwagLabsProject\CheckingCartAfterLogoutTests.class
 Omar\TestComponents\ExtentReportsConfig.class
+Omar\SwagLabsProject\AddingAndRemovingProductsTest.class
 Omar\SwagLabsProject\ValidLoginTests.class
 Omar\TestComponents\RetryConfig.class
+Omar\SwagLabsProject\SubmittingOrderTests.class
 Omar\TestComponents\BaseTest$1.class
 Omar\TestComponents\BaseTest.class
 Omar\TestComponents\Listeners.class

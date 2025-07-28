@@ -5,24 +5,24 @@
   <suite started-at="2025-07-14T23:45:38 EEST" name="Default suite" finished-at="2025-07-14T23:45:45 EEST" duration-ms="7210">
     <groups>
       <group name="Smoke">
-        <method signature="CheckingCartAfterLogout.CheckoingOnProductsAfterLogoutTest()[pri:0, instance:Omar.SwagLabsProject.CheckingCartAfterLogout@1b66c0fb]" name="CheckoingOnProductsAfterLogoutTest" class="Omar.SwagLabsProject.CheckingCartAfterLogout"/>
+        <method signature="CheckingCartAfterLogout.CheckoingOnProductsAfterLogoutTest()[pri:0, instance:SwagLabs.Tests.CheckingCartAfterLogout@1b66c0fb]" name="CheckoingOnProductsAfterLogoutTest" class="SwagLabs.Tests.CheckingCartAfterLogout"/>
       </group> <!-- Smoke -->
     </groups>
     <test started-at="2025-07-14T23:45:38 EEST" name="Default test" finished-at="2025-07-14T23:45:45 EEST" duration-ms="7210">
-      <class name="Omar.SwagLabsProject.CheckingCartAfterLogout">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:Omar.SwagLabsProject.CheckingCartAfterLogout@1b66c0fb]" started-at="2025-07-14T23:45:38 EEST" name="launchApp" finished-at="2025-07-14T23:45:41 EEST" duration-ms="2953" status="PASS">
+      <class name="SwagLabs.Tests.CheckingCartAfterLogout">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:SwagLabs.Tests.CheckingCartAfterLogout@1b66c0fb]" started-at="2025-07-14T23:45:38 EEST" name="launchApp" finished-at="2025-07-14T23:45:41 EEST" duration-ms="2953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="CheckoingOnProductsAfterLogoutTest()[pri:0, instance:Omar.SwagLabsProject.CheckingCartAfterLogout@1b66c0fb]" started-at="2025-07-14T23:45:41 EEST" name="CheckoingOnProductsAfterLogoutTest" finished-at="2025-07-14T23:45:44 EEST" duration-ms="3841" status="PASS">
+        <test-method signature="CheckoingOnProductsAfterLogoutTest()[pri:0, instance:SwagLabs.Tests.CheckingCartAfterLogout@1b66c0fb]" started-at="2025-07-14T23:45:41 EEST" name="CheckoingOnProductsAfterLogoutTest" finished-at="2025-07-14T23:45:44 EEST" duration-ms="3841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckoingOnProductsAfterLogoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omar.SwagLabsProject.CheckingCartAfterLogout@1b66c0fb]" started-at="2025-07-14T23:45:44 EEST" name="tearDown" finished-at="2025-07-14T23:45:45 EEST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.Tests.CheckingCartAfterLogout@1b66c0fb]" started-at="2025-07-14T23:45:44 EEST" name="tearDown" finished-at="2025-07-14T23:45:45 EEST" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Omar.SwagLabsProject.CheckingCartAfterLogout -->
+      </class> <!-- SwagLabs.Tests.CheckingCartAfterLogout -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
