@@ -1,0 +1,270 @@
+2025-08-10 23:01:50.716 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 23:01:54.198 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:01:55.884 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:01:58.195 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:02:02.446 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:02:06.538 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:02:12.002 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:02:13.911 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:02:17.759 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:02:19.968 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:02:22.628 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:02:24.958 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:02:28.340 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:02:28.634 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject
+2025-08-10 23:07:10.981 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 23:07:13.876 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:07:15.782 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:07:17.426 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:07:21.287 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:07:23.393 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:07:26.140 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:07:26.430 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject
+2025-08-10 23:11:01.182 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 23:11:01.571 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:11:01.577 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:11:05.984 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:11:08.363 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:11:10.415 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:11:14.323 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:11:18.455 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:11:20.076 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:11:20.250 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject
+2025-08-10 23:21:17.268 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validation Full Order Test
+2025-08-10 23:21:17.292 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:21:17.294 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:21:20.397 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:21:23.004 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:21:24.912 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:21:29.702 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:21:53.073 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:21:55.079 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:21:55.361 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validation Full Order Test
+2025-08-10 23:21:55.364 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Adding and Removing items Test
+2025-08-10 23:21:55.367 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:21:55.368 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:21:56.599 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductDetailsPageTest
+2025-08-10 23:21:58.162 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductDetailsPageTest
+2025-08-10 23:22:00.037 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductPageTest
+2025-08-10 23:22:01.911 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductPageTest
+2025-08-10 23:22:05.168 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromCartTest
+2025-08-10 23:22:06.629 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromCartTest
+2025-08-10 23:22:08.598 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductDetailsPageTest
+2025-08-10 23:22:11.484 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductDetailsPageTest
+2025-08-10 23:22:13.641 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductPageTest
+2025-08-10 23:22:15.247 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductPageTest
+2025-08-10 23:22:15.808 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Adding and Removing items Test
+2025-08-10 23:22:15.808 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Logins Test
+2025-08-10 23:22:15.903 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:22:15.905 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:22:17.631 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:22:18.155 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: lockedOutUserLoginTest
+2025-08-10 23:22:19.852 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validPerformanceUserLoginTest
+2025-08-10 23:22:27.141 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validPerformanceUserLoginTest
+2025-08-10 23:22:28.722 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validProblemUserLoginTest
+2025-08-10 23:22:30.266 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validProblemUserLoginTest
+2025-08-10 23:22:33.209 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validStandardUserLoginTest
+2025-08-10 23:22:33.839 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validStandardUserLoginTest
+2025-08-10 23:22:34.160 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Logins Test
+2025-08-10 23:22:34.160 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Adding and Removing Products Functionality Test
+2025-08-10 23:22:34.164 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:22:34.165 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:22:35.863 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: checkingOnProductsAfterLogoutTest
+2025-08-10 23:22:37.897 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: checkingOnProductsAfterLogoutTest
+2025-08-10 23:22:38.201 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Adding and Removing Products Functionality Test
+2025-08-10 23:25:26.172 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validation Full Order Test
+2025-08-10 23:25:26.193 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:25:26.196 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:25:26.196 [main] INFO  swagLabsMain.utils.AllureListener - Initialized fresh allure results for suite: Validation Full Order Test
+2025-08-10 23:25:29.222 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:25:31.303 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:25:32.536 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:25:34.840 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:25:36.408 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:25:41.813 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:25:42.189 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validation Full Order Test
+2025-08-10 23:25:42.190 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Adding and Removing items Test
+2025-08-10 23:25:42.194 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:25:42.195 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:25:42.196 [main] INFO  swagLabsMain.utils.AllureListener - Initialized fresh allure results for suite: Validating Adding and Removing items Test
+2025-08-10 23:25:44.122 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductDetailsPageTest
+2025-08-10 23:25:45.309 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductDetailsPageTest
+2025-08-10 23:25:46.855 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductPageTest
+2025-08-10 23:25:48.621 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductPageTest
+2025-08-10 23:25:50.345 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromCartTest
+2025-08-10 23:25:51.520 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromCartTest
+2025-08-10 23:25:53.645 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductDetailsPageTest
+2025-08-10 23:25:57.706 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductDetailsPageTest
+2025-08-10 23:25:59.606 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductPageTest
+2025-08-10 23:26:00.924 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductPageTest
+2025-08-10 23:26:01.189 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Adding and Removing items Test
+2025-08-10 23:26:01.189 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Logins Test
+2025-08-10 23:26:01.193 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:26:01.195 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:26:01.195 [main] INFO  swagLabsMain.utils.AllureListener - Initialized fresh allure results for suite: Validating Logins Test
+2025-08-10 23:26:02.726 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:26:03.300 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: lockedOutUserLoginTest
+2025-08-10 23:26:05.036 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validPerformanceUserLoginTest
+2025-08-10 23:26:10.523 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validPerformanceUserLoginTest
+2025-08-10 23:26:12.328 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validProblemUserLoginTest
+2025-08-10 23:26:12.806 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validProblemUserLoginTest
+2025-08-10 23:26:14.533 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validStandardUserLoginTest
+2025-08-10 23:26:15.017 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validStandardUserLoginTest
+2025-08-10 23:26:15.231 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Logins Test
+2025-08-10 23:26:15.233 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Adding and Removing Products Functionality Test
+2025-08-10 23:26:15.244 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:26:15.245 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:26:15.246 [main] INFO  swagLabsMain.utils.AllureListener - Initialized fresh allure results for suite: Adding and Removing Products Functionality Test
+2025-08-10 23:26:16.995 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: checkingOnProductsAfterLogoutTest
+2025-08-10 23:26:18.906 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: checkingOnProductsAfterLogoutTest
+2025-08-10 23:26:19.102 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Adding and Removing Products Functionality Test
+2025-08-10 23:30:09.916 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validation Full Order Test
+2025-08-10 23:30:09.933 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:30:09.933 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validation Full Order Test
+2025-08-10 23:30:13.147 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:30:15.299 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:30:17.430 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:30:23.016 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:30:25.428 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:30:28.035 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:30:28.271 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validation Full Order Test
+2025-08-10 23:30:28.274 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Adding and Removing items Test
+2025-08-10 23:30:28.275 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:30:28.275 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validating Adding and Removing items Test
+2025-08-10 23:30:29.979 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductDetailsPageTest
+2025-08-10 23:30:33.004 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductDetailsPageTest
+2025-08-10 23:30:34.413 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductPageTest
+2025-08-10 23:30:35.701 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductPageTest
+2025-08-10 23:30:38.196 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromCartTest
+2025-08-10 23:30:39.734 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromCartTest
+2025-08-10 23:30:42.320 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductDetailsPageTest
+2025-08-10 23:30:44.016 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductDetailsPageTest
+2025-08-10 23:30:46.411 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductPageTest
+2025-08-10 23:30:48.247 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductPageTest
+2025-08-10 23:30:48.507 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Adding and Removing items Test
+2025-08-10 23:30:48.508 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Logins Test
+2025-08-10 23:30:48.510 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:30:48.511 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validating Logins Test
+2025-08-10 23:30:50.254 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:30:50.761 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: lockedOutUserLoginTest
+2025-08-10 23:30:53.169 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validPerformanceUserLoginTest
+2025-08-10 23:30:59.633 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validPerformanceUserLoginTest
+2025-08-10 23:31:01.536 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validProblemUserLoginTest
+2025-08-10 23:31:02.041 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validProblemUserLoginTest
+2025-08-10 23:31:03.664 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validStandardUserLoginTest
+2025-08-10 23:31:05.469 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validStandardUserLoginTest
+2025-08-10 23:31:06.289 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Logins Test
+2025-08-10 23:31:06.290 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Adding and Removing Products Functionality Test
+2025-08-10 23:31:06.290 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:31:06.290 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Adding and Removing Products Functionality Test
+2025-08-10 23:31:08.076 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: checkingOnProductsAfterLogoutTest
+2025-08-10 23:31:09.931 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: checkingOnProductsAfterLogoutTest
+2025-08-10 23:31:10.148 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Adding and Removing Products Functionality Test
+2025-08-10 23:31:44.194 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validation Full Order Test
+2025-08-10 23:31:44.196 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:31:44.197 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validation Full Order Test
+2025-08-10 23:31:46.539 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:31:48.521 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:31:50.311 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:31:53.693 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:31:55.584 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:31:58.733 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:31:59.016 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validation Full Order Test
+2025-08-10 23:31:59.018 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Adding and Removing items Test
+2025-08-10 23:31:59.019 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:31:59.019 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validating Adding and Removing items Test
+2025-08-10 23:32:00.150 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductDetailsPageTest
+2025-08-10 23:32:03.074 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductDetailsPageTest
+2025-08-10 23:32:04.919 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductPageTest
+2025-08-10 23:32:05.723 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductPageTest
+2025-08-10 23:32:08.557 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromCartTest
+2025-08-10 23:32:10.052 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromCartTest
+2025-08-10 23:32:12.615 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductDetailsPageTest
+2025-08-10 23:32:14.174 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductDetailsPageTest
+2025-08-10 23:32:15.691 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductPageTest
+2025-08-10 23:32:18.155 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductPageTest
+2025-08-10 23:32:18.373 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Adding and Removing items Test
+2025-08-10 23:32:18.374 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Logins Test
+2025-08-10 23:32:18.375 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:32:18.375 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validating Logins Test
+2025-08-10 23:32:19.965 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:32:20.437 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: lockedOutUserLoginTest
+2025-08-10 23:32:21.970 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validPerformanceUserLoginTest
+2025-08-10 23:32:28.920 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validPerformanceUserLoginTest
+2025-08-10 23:32:31.066 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validProblemUserLoginTest
+2025-08-10 23:32:32.065 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validProblemUserLoginTest
+2025-08-10 23:32:34.358 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validStandardUserLoginTest
+2025-08-10 23:32:35.030 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validStandardUserLoginTest
+2025-08-10 23:32:35.312 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Logins Test
+2025-08-10 23:32:35.313 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Adding and Removing Products Functionality Test
+2025-08-10 23:32:35.313 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:32:35.313 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Adding and Removing Products Functionality Test
+2025-08-10 23:32:37.230 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: checkingOnProductsAfterLogoutTest
+2025-08-10 23:32:40.077 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: checkingOnProductsAfterLogoutTest
+2025-08-10 23:32:40.393 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Adding and Removing Products Functionality Test
+2025-08-10 23:52:48.510 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test suite started: Submit Order Test
+2025-08-10 23:52:48.525 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:52:48.525 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Submit Order Test
+2025-08-10 23:52:52.686 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:52:54.288 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:52:56.271 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:52:59.450 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:53:02.333 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:53:04.125 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:53:06.165 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:53:08.781 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:53:10.104 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:53:12.269 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:53:14.824 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:53:17.543 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:53:17.775 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Submit Order Test
+2025-08-10 23:58:56.505 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 23:58:56.524 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:58:56.524 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: SwagLabsProject
+2025-08-10 23:58:59.578 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: blankAllLoginTest
+2025-08-10 23:58:59.975 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: blankAllLoginTest
+2025-08-10 23:59:02.258 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: blankPasswordLoginTest
+2025-08-10 23:59:04.123 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: blankPasswordLoginTest
+2025-08-10 23:59:07.072 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: blankUsernameLoginTest
+2025-08-10 23:59:07.540 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: blankUsernameLoginTest
+2025-08-10 23:59:10.131 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidPasswordLoginTest
+2025-08-10 23:59:12.346 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidPasswordLoginTest
+2025-08-10 23:59:14.423 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidUsernameLoginTest
+2025-08-10 23:59:16.607 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidUsernameLoginTest
+2025-08-10 23:59:18.265 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:59:19.339 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: lockedOutUserLoginTest
+2025-08-10 23:59:21.324 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:59:22.604 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: lockedOutUserLoginTest
+2025-08-10 23:59:26.230 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:59:27.057 [main] ERROR swagLabsMain.utils.AllureListener - Test failed: lockedOutUserLoginTest - expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
+2025-08-10 23:59:27.058 [main] ERROR swagLabsMain.utils.AllureListener - Driver field not found in test class: lockedOutUserLoginTest
+java.lang.NoSuchFieldException: driver
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+	at swagLabsMain.utils.AllureListener.getWebDriverInstance(AllureListener.java:96)
+	at swagLabsMain.utils.AllureListener.onTestFailure(AllureListener.java:48)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-08-10 23:59:27.064 [main] ERROR swagLabsMain.utils.AllureListener - Could not get WebDriver instance for failed test: lockedOutUserLoginTest
+2025-08-10 23:59:27.406 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject

@@ -1,0 +1,1236 @@
+2025-08-10 22:43:29.727 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-10 22:43:29.742 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 22:43:29.894 [main] ERROR swagLabsMain.utils.AllureListener - Test failed: invalidE2eTest - 
+Cannot inject @Test annotated Method [invalidE2eTest] with [class java.util.HashMap].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+2025-08-10 22:43:29.894 [main] ERROR swagLabsMain.utils.AllureListener - Error getting WebDriver instance
+java.lang.NoSuchFieldException: driver
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+	at swagLabsMain.utils.AllureListener.getWebDriverInstance(AllureListener.java:65)
+	at swagLabsMain.utils.AllureListener.onTestFailure(AllureListener.java:35)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:971)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-08-10 22:43:29.923 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject
+2025-08-10 22:44:52.339 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-10 22:44:52.365 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 22:44:52.658 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:44:52.675 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:44:52.676 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:44:55.486 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:44:56.101 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:44:56.163 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 22:44:57.951 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 22:44:57.953 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:44:58.183 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:44:58.186 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:44:58.186 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:44:58.186 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:44:59.005 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:44:59.792 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:44:59.809 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 22:45:02.435 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 22:45:02.437 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:45:02.726 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:45:02.731 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:45:02.731 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:45:02.731 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:45:03.861 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:45:04.773 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:45:04.775 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 22:45:07.091 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 22:45:07.092 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:45:07.311 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:45:07.321 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject
+2025-08-10 22:46:16.602 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-10 22:46:16.616 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 22:46:16.828 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:46:16.831 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:46:16.831 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:46:18.402 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:46:19.034 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:46:19.112 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:46:20.131 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: invalidE2eTest
+2025-08-10 22:46:20.134 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:46:20.382 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:46:20.390 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:46:20.391 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:46:20.392 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:46:21.542 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:46:22.191 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:46:22.216 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:46:23.941 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: invalidE2eTest
+2025-08-10 22:46:23.941 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:46:24.181 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:46:24.181 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:46:24.181 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:46:24.181 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:46:25.420 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:46:25.601 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:46:25.607 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:46:27.870 [main] ERROR swagLabsMain.utils.AllureListener - Test failed: invalidE2eTest - Keys to send should be a not null CharSequence
+2025-08-10 22:46:27.870 [main] ERROR swagLabsMain.utils.AllureListener - Error getting WebDriver instance
+java.lang.NoSuchFieldException: driver
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+	at swagLabsMain.utils.AllureListener.getWebDriverInstance(AllureListener.java:65)
+	at swagLabsMain.utils.AllureListener.onTestFailure(AllureListener.java:35)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-08-10 22:46:27.878 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:46:28.110 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:46:28.112 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:46:28.112 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:46:28.112 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:46:29.077 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:46:29.743 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:46:29.747 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:46:30.736 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: invalidE2eTest
+2025-08-10 22:46:30.736 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:46:31.025 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:46:31.030 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:46:31.030 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:46:31.030 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:46:32.452 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:46:33.390 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:46:33.394 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:46:34.950 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: invalidE2eTest
+2025-08-10 22:46:34.950 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:46:35.328 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:46:35.333 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:46:35.335 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:46:35.335 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:46:36.440 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:46:37.064 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:46:37.068 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:46:38.415 [main] ERROR swagLabsMain.utils.AllureListener - Test failed: invalidE2eTest - Keys to send should be a not null CharSequence
+2025-08-10 22:46:38.415 [main] ERROR swagLabsMain.utils.AllureListener - Error getting WebDriver instance
+java.lang.NoSuchFieldException: driver
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+	at swagLabsMain.utils.AllureListener.getWebDriverInstance(AllureListener.java:65)
+	at swagLabsMain.utils.AllureListener.onTestFailure(AllureListener.java:35)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-08-10 22:46:38.417 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:46:38.618 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:46:38.622 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:46:38.622 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:46:38.623 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:46:39.546 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:46:39.715 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:46:39.720 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:46:42.304 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: invalidE2eTest
+2025-08-10 22:46:42.305 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:46:42.517 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:46:42.520 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:46:42.520 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:46:42.520 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:46:43.848 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:46:44.213 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:46:44.216 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:46:46.020 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: invalidE2eTest
+2025-08-10 22:46:46.020 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:46:46.224 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:46:46.237 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:46:46.239 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:46:46.239 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:46:47.223 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:46:47.863 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:46:47.867 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:46:48.936 [main] ERROR swagLabsMain.utils.AllureListener - Test failed: invalidE2eTest - Keys to send should be a not null CharSequence
+2025-08-10 22:46:48.936 [main] ERROR swagLabsMain.utils.AllureListener - Error getting WebDriver instance
+java.lang.NoSuchFieldException: driver
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+	at swagLabsMain.utils.AllureListener.getWebDriverInstance(AllureListener.java:65)
+	at swagLabsMain.utils.AllureListener.onTestFailure(AllureListener.java:35)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-08-10 22:46:48.938 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:46:49.324 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:46:49.337 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject
+2025-08-10 22:47:41.575 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-10 22:47:41.586 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 22:47:41.783 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:47:41.784 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:47:41.784 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:47:42.996 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:47:43.602 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:47:43.658 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:47:48.044 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: invalidE2eTest
+2025-08-10 22:47:48.046 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:47:48.312 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:47:48.314 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:47:48.314 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:47:48.314 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:47:49.351 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:47:49.520 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:47:49.524 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:47:54.994 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: invalidE2eTest
+2025-08-10 22:47:54.995 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:47:55.202 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:47:55.204 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:47:55.204 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:47:55.204 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:47:56.312 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:47:56.489 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:47:56.492 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:48:01.486 [main] ERROR swagLabsMain.utils.AllureListener - Test failed: invalidE2eTest - Expected condition failed: waiting for swagLabsMain.utils.Waits$$Lambda/0x000001ab8140e000@76f2dad9 (tried for 3 second(s) with 500 milliseconds interval)
+2025-08-10 22:48:01.486 [main] ERROR swagLabsMain.utils.AllureListener - Error getting WebDriver instance
+java.lang.NoSuchFieldException: driver
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+	at swagLabsMain.utils.AllureListener.getWebDriverInstance(AllureListener.java:65)
+	at swagLabsMain.utils.AllureListener.onTestFailure(AllureListener.java:35)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-08-10 22:48:01.494 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:48:01.724 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:48:01.724 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:48:01.724 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:48:01.724 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:49:26.568 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-10 22:49:26.577 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 22:49:26.771 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:49:26.772 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:49:26.774 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:49:27.960 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:49:28.640 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:49:28.697 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:49:30.019 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 22:49:30.021 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:49:30.238 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:49:30.245 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:49:30.245 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:49:30.246 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:49:31.281 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:49:31.453 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:49:31.456 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:49:34.040 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 22:49:34.040 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:49:34.234 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:49:34.236 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:49:34.236 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:49:34.236 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:49:35.337 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:49:35.930 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:49:35.934 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:49:37.364 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 22:49:37.364 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:49:37.688 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:49:37.698 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject
+2025-08-10 22:51:30.039 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-10 22:51:30.074 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 22:51:30.528 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:51:30.530 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:51:30.530 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:51:33.542 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:51:34.801 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:51:34.974 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:51:41.409 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 22:51:41.415 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:51:43.131 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:51:43.141 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:51:43.141 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:51:43.141 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:51:45.697 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:51:48.095 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:51:48.102 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:51:51.559 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 22:51:51.567 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:51:52.119 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:51:52.139 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:51:52.141 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:51:52.141 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:51:54.079 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:51:54.318 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:51:54.341 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 22:52:00.557 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 22:52:00.559 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:52:03.386 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:52:03.409 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:52:03.411 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:52:03.413 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:52:05.862 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:52:06.759 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:52:06.779 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 22:52:11.803 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 22:52:11.805 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:52:14.039 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:52:14.077 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:52:14.077 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:52:14.077 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:52:17.181 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:52:17.457 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:52:17.472 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 22:52:25.367 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 22:52:25.369 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:52:25.798 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:52:25.801 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 22:52:25.801 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 22:52:25.801 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 22:52:27.633 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 22:52:28.404 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 22:52:28.406 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 22:52:33.037 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 22:52:33.040 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 22:52:33.369 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 22:52:33.396 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject
+2025-08-10 23:01:50.700 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-10 23:01:50.716 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 23:01:51.022 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:01:51.023 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:01:51.023 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:01:53.281 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:01:54.109 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:01:54.198 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:01:55.884 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:01:55.888 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:01:56.188 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:01:56.192 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:01:56.193 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:01:56.193 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:01:57.508 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:01:58.189 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:01:58.195 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:02:02.446 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:02:02.448 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:02:03.248 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:02:03.252 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:02:03.252 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:02:03.252 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:02:05.020 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:02:06.509 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:02:06.538 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:02:12.002 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:02:12.102 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:02:12.388 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:02:12.404 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:02:12.404 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:02:12.405 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:02:13.718 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:02:13.909 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:02:13.911 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:02:17.759 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:02:17.760 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:02:17.962 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:02:17.968 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:02:17.968 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:02:17.968 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:02:19.197 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:02:19.965 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:02:19.968 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:02:22.628 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:02:22.630 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:02:22.848 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:02:22.854 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:02:22.855 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:02:22.855 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:02:23.999 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:02:24.956 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:02:24.958 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:02:28.340 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:02:28.344 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:02:28.618 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:02:28.634 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject
+2025-08-10 23:07:10.972 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-10 23:07:10.981 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 23:07:11.263 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:07:11.284 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:07:11.285 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:07:13.105 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:07:13.783 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:07:13.876 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:07:15.782 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:07:15.785 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:07:16.093 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:07:16.099 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:07:16.100 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:07:16.100 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:07:17.176 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:07:17.421 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:07:17.426 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:07:21.287 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:07:21.289 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:07:21.552 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:07:21.557 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:07:21.557 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:07:21.557 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:07:22.768 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:07:23.389 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:07:23.393 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:07:26.140 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:07:26.142 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:07:26.389 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:07:26.430 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject
+2025-08-10 23:11:01.172 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-10 23:11:01.182 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 23:11:01.571 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:11:01.577 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:11:02.486 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:11:02.520 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:11:02.520 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:11:05.117 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:11:05.876 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:11:05.984 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:11:08.363 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:11:08.366 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:11:08.576 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:11:08.581 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:11:08.582 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:11:08.582 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:11:09.542 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:11:10.413 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:11:10.415 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:11:14.323 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:11:14.329 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:11:16.708 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:11:16.711 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:11:16.712 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:11:16.712 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:11:17.825 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:11:18.451 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:11:18.455 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:11:20.076 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:11:20.078 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:11:20.242 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:11:20.250 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject
+2025-08-10 23:21:17.255 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\eclipse-workspace\SwagLabsProject\TestNG_Suites\SmokeTests.xml
+
+2025-08-10 23:21:17.268 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validation Full Order Test
+2025-08-10 23:21:17.292 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:21:17.294 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:21:17.664 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:21:17.665 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:21:17.665 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:21:19.653 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:21:20.311 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:21:20.397 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:21:23.004 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:21:23.006 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:21:23.255 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:21:23.259 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:21:23.260 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:21:23.260 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:21:24.322 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:21:24.909 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:21:24.912 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:21:29.702 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:21:29.704 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:21:30.004 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:21:30.006 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:21:30.007 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:21:30.007 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:21:31.254 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:21:53.070 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:21:53.073 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:21:55.079 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:21:55.081 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:21:55.351 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:21:55.361 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validation Full Order Test
+2025-08-10 23:21:55.364 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Adding and Removing items Test
+2025-08-10 23:21:55.367 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:21:55.368 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:21:55.370 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:21:55.372 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:21:55.372 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:21:56.416 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:21:56.595 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:21:56.599 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductDetailsPageTest
+2025-08-10 23:21:58.162 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductDetailsPageTest
+2025-08-10 23:21:58.163 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:21:58.417 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:21:58.422 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:21:58.422 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:21:58.422 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:21:59.821 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:22:00.033 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:22:00.037 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductPageTest
+2025-08-10 23:22:01.911 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductPageTest
+2025-08-10 23:22:01.912 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:22:03.085 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:22:03.089 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:22:03.090 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:22:03.090 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:22:04.459 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:22:05.164 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:22:05.168 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromCartTest
+2025-08-10 23:22:06.629 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromCartTest
+2025-08-10 23:22:06.631 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:22:06.848 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:22:06.854 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:22:06.854 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:22:06.854 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:22:08.413 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:22:08.593 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:22:08.598 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductDetailsPageTest
+2025-08-10 23:22:11.484 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductDetailsPageTest
+2025-08-10 23:22:11.485 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:22:11.738 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:22:11.745 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:22:11.747 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:22:11.748 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:22:12.905 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:22:13.617 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:22:13.641 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductPageTest
+2025-08-10 23:22:15.247 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductPageTest
+2025-08-10 23:22:15.248 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:22:15.804 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:22:15.808 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Adding and Removing items Test
+2025-08-10 23:22:15.808 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Logins Test
+2025-08-10 23:22:15.903 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:22:15.905 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:22:15.908 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:22:15.908 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:22:15.908 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:22:17.018 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:22:17.628 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:22:17.631 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:22:18.155 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: lockedOutUserLoginTest
+2025-08-10 23:22:18.156 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:22:18.387 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:22:18.391 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:22:18.391 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:22:18.391 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:22:19.657 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:22:19.843 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:22:19.852 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validPerformanceUserLoginTest
+2025-08-10 23:22:27.141 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validPerformanceUserLoginTest
+2025-08-10 23:22:27.142 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:22:27.376 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:22:27.378 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:22:27.378 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:22:27.379 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:22:28.542 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:22:28.721 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:22:28.722 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validProblemUserLoginTest
+2025-08-10 23:22:30.266 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validProblemUserLoginTest
+2025-08-10 23:22:30.268 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:22:31.220 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:22:31.225 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:22:31.225 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:22:31.225 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:22:32.433 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:22:33.206 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:22:33.209 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validStandardUserLoginTest
+2025-08-10 23:22:33.839 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validStandardUserLoginTest
+2025-08-10 23:22:33.842 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:22:34.156 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:22:34.160 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Logins Test
+2025-08-10 23:22:34.160 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Adding and Removing Products Functionality Test
+2025-08-10 23:22:34.164 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:22:34.165 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:22:34.168 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:22:34.168 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:22:34.168 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:22:35.246 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:22:35.862 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:22:35.863 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: checkingOnProductsAfterLogoutTest
+2025-08-10 23:22:37.897 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: checkingOnProductsAfterLogoutTest
+2025-08-10 23:22:37.899 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:22:38.197 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:22:38.201 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Adding and Removing Products Functionality Test
+2025-08-10 23:25:26.144 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\eclipse-workspace\SwagLabsProject\TestNG_Suites\SmokeTests.xml
+
+2025-08-10 23:25:26.172 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validation Full Order Test
+2025-08-10 23:25:26.193 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:25:26.196 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:25:26.196 [main] INFO  swagLabsMain.utils.AllureListener - Initialized fresh allure results for suite: Validation Full Order Test
+2025-08-10 23:25:26.473 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:25:26.476 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:25:26.476 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:25:28.511 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:25:29.135 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:25:29.222 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:25:31.303 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:25:31.306 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:25:31.513 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:25:31.520 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:25:31.520 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:25:31.520 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:25:32.372 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:25:32.530 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:25:32.536 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:25:34.840 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:25:34.841 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:25:35.014 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:25:35.017 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:25:35.017 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:25:35.018 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:25:35.791 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:25:36.405 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:25:36.408 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:25:41.813 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:25:41.822 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:25:42.180 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:25:42.189 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validation Full Order Test
+2025-08-10 23:25:42.190 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Adding and Removing items Test
+2025-08-10 23:25:42.194 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:25:42.195 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:25:42.196 [main] INFO  swagLabsMain.utils.AllureListener - Initialized fresh allure results for suite: Validating Adding and Removing items Test
+2025-08-10 23:25:42.198 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:25:42.199 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:25:42.199 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:25:43.287 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:25:44.118 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:25:44.122 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductDetailsPageTest
+2025-08-10 23:25:45.309 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductDetailsPageTest
+2025-08-10 23:25:45.311 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:25:45.498 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:25:45.503 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:25:45.504 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:25:45.504 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:25:46.657 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:25:46.834 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:25:46.855 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductPageTest
+2025-08-10 23:25:48.621 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductPageTest
+2025-08-10 23:25:48.626 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:25:48.836 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:25:48.838 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:25:48.839 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:25:48.839 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:25:49.714 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:25:50.342 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:25:50.345 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromCartTest
+2025-08-10 23:25:51.520 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromCartTest
+2025-08-10 23:25:51.521 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:25:51.775 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:25:51.779 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:25:51.779 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:25:51.779 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:25:52.874 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:25:53.640 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:25:53.645 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductDetailsPageTest
+2025-08-10 23:25:57.706 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductDetailsPageTest
+2025-08-10 23:25:57.708 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:25:57.879 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:25:57.883 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:25:57.883 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:25:57.883 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:25:58.971 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:25:59.583 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:25:59.606 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductPageTest
+2025-08-10 23:26:00.924 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductPageTest
+2025-08-10 23:26:00.926 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:26:01.181 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:26:01.189 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Adding and Removing items Test
+2025-08-10 23:26:01.189 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Logins Test
+2025-08-10 23:26:01.193 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:26:01.195 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:26:01.195 [main] INFO  swagLabsMain.utils.AllureListener - Initialized fresh allure results for suite: Validating Logins Test
+2025-08-10 23:26:01.198 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:26:01.198 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:26:01.199 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:26:02.114 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:26:02.724 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:26:02.726 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:26:03.300 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: lockedOutUserLoginTest
+2025-08-10 23:26:03.301 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:26:03.570 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:26:03.574 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:26:03.574 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:26:03.574 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:26:04.447 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:26:05.033 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:26:05.036 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validPerformanceUserLoginTest
+2025-08-10 23:26:10.523 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validPerformanceUserLoginTest
+2025-08-10 23:26:10.524 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:26:10.720 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:26:10.728 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:26:10.730 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:26:10.730 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:26:11.648 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:26:12.256 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:26:12.328 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validProblemUserLoginTest
+2025-08-10 23:26:12.806 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validProblemUserLoginTest
+2025-08-10 23:26:12.807 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:26:13.075 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:26:13.079 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:26:13.079 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:26:13.080 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:26:13.952 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:26:14.529 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:26:14.533 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validStandardUserLoginTest
+2025-08-10 23:26:15.017 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validStandardUserLoginTest
+2025-08-10 23:26:15.019 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:26:15.219 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:26:15.231 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Logins Test
+2025-08-10 23:26:15.233 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Adding and Removing Products Functionality Test
+2025-08-10 23:26:15.244 [main] INFO  swagLabsMain.utils.AllureListener - Cleaned allure-results directory for fresh reports
+2025-08-10 23:26:15.245 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:26:15.246 [main] INFO  swagLabsMain.utils.AllureListener - Initialized fresh allure results for suite: Adding and Removing Products Functionality Test
+2025-08-10 23:26:15.250 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:26:15.250 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:26:15.250 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:26:16.095 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:26:16.994 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:26:16.995 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: checkingOnProductsAfterLogoutTest
+2025-08-10 23:26:18.906 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: checkingOnProductsAfterLogoutTest
+2025-08-10 23:26:18.908 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:26:19.091 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:26:19.102 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Adding and Removing Products Functionality Test
+2025-08-10 23:30:09.893 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\eclipse-workspace\SwagLabsProject\TestNG_Suites\SmokeTests.xml
+
+2025-08-10 23:30:09.916 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validation Full Order Test
+2025-08-10 23:30:09.933 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:30:09.933 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validation Full Order Test
+2025-08-10 23:30:10.212 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:30:10.215 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:30:10.215 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:30:12.397 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:30:13.076 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:30:13.147 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:30:15.299 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:30:15.302 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:30:15.549 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:30:15.553 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:30:15.554 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:30:15.554 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:30:16.693 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:30:17.426 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:30:17.430 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:30:23.016 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:30:23.021 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:30:23.319 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:30:23.321 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:30:23.322 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:30:23.322 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:30:24.661 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:30:25.400 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:30:25.428 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:30:28.035 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:30:28.037 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:30:28.261 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:30:28.271 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validation Full Order Test
+2025-08-10 23:30:28.274 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Adding and Removing items Test
+2025-08-10 23:30:28.275 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:30:28.275 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validating Adding and Removing items Test
+2025-08-10 23:30:28.277 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:30:28.278 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:30:28.278 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:30:29.333 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:30:29.977 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:30:29.979 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductDetailsPageTest
+2025-08-10 23:30:33.004 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductDetailsPageTest
+2025-08-10 23:30:33.006 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:30:33.241 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:30:33.244 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:30:33.244 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:30:33.245 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:30:34.249 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:30:34.411 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:30:34.413 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductPageTest
+2025-08-10 23:30:35.701 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductPageTest
+2025-08-10 23:30:35.702 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:30:35.922 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:30:35.926 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:30:35.926 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:30:35.926 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:30:37.352 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:30:38.194 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:30:38.196 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromCartTest
+2025-08-10 23:30:39.734 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromCartTest
+2025-08-10 23:30:39.736 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:30:40.206 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:30:40.210 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:30:40.210 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:30:40.210 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:30:41.699 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:30:42.316 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:30:42.320 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductDetailsPageTest
+2025-08-10 23:30:44.016 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductDetailsPageTest
+2025-08-10 23:30:44.017 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:30:44.216 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:30:44.219 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:30:44.219 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:30:44.219 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:30:45.313 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:30:46.405 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:30:46.411 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductPageTest
+2025-08-10 23:30:48.247 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductPageTest
+2025-08-10 23:30:48.249 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:30:48.497 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:30:48.507 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Adding and Removing items Test
+2025-08-10 23:30:48.508 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Logins Test
+2025-08-10 23:30:48.510 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:30:48.511 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validating Logins Test
+2025-08-10 23:30:48.515 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:30:48.515 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:30:48.515 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:30:49.514 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:30:50.252 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:30:50.254 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:30:50.761 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: lockedOutUserLoginTest
+2025-08-10 23:30:50.762 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:30:51.047 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:30:51.052 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:30:51.052 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:30:51.053 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:30:52.967 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:30:53.162 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:30:53.169 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validPerformanceUserLoginTest
+2025-08-10 23:30:59.633 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validPerformanceUserLoginTest
+2025-08-10 23:30:59.634 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:30:59.838 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:30:59.841 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:30:59.842 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:30:59.842 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:31:00.823 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:31:01.532 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:31:01.536 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validProblemUserLoginTest
+2025-08-10 23:31:02.041 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validProblemUserLoginTest
+2025-08-10 23:31:02.044 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:31:02.305 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:31:02.307 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:31:02.308 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:31:02.308 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:31:03.449 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:31:03.660 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:31:03.664 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validStandardUserLoginTest
+2025-08-10 23:31:05.469 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validStandardUserLoginTest
+2025-08-10 23:31:05.473 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:31:06.260 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:31:06.289 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Logins Test
+2025-08-10 23:31:06.290 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Adding and Removing Products Functionality Test
+2025-08-10 23:31:06.290 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:31:06.290 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Adding and Removing Products Functionality Test
+2025-08-10 23:31:06.293 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:31:06.293 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:31:06.293 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:31:07.426 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:31:08.074 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:31:08.076 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: checkingOnProductsAfterLogoutTest
+2025-08-10 23:31:09.931 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: checkingOnProductsAfterLogoutTest
+2025-08-10 23:31:09.932 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:31:10.141 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:31:10.148 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Adding and Removing Products Functionality Test
+2025-08-10 23:31:44.182 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\eclipse-workspace\SwagLabsProject\TestNG_Suites\SmokeTests.xml
+
+2025-08-10 23:31:44.194 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validation Full Order Test
+2025-08-10 23:31:44.196 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:31:44.197 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validation Full Order Test
+2025-08-10 23:31:44.506 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:31:44.509 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:31:44.509 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:31:45.759 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:31:46.477 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:31:46.539 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:31:48.521 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:31:48.524 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:31:48.738 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:31:48.761 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:31:48.761 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:31:48.761 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:31:49.751 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:31:50.306 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:31:50.311 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:31:53.693 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:31:53.695 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:31:53.970 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:31:53.973 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:31:53.974 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:31:53.974 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:31:55.148 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:31:55.577 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:31:55.584 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:31:58.733 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:31:58.736 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:31:59.007 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:31:59.016 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validation Full Order Test
+2025-08-10 23:31:59.018 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Adding and Removing items Test
+2025-08-10 23:31:59.019 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:31:59.019 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validating Adding and Removing items Test
+2025-08-10 23:31:59.021 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:31:59.022 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:31:59.022 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:31:59.983 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:32:00.146 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:32:00.150 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductDetailsPageTest
+2025-08-10 23:32:03.074 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductDetailsPageTest
+2025-08-10 23:32:03.076 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:32:03.293 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:32:03.300 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:32:03.301 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:32:03.301 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:32:04.310 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:32:04.917 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:32:04.919 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: addProductFromProductPageTest
+2025-08-10 23:32:05.723 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: addProductFromProductPageTest
+2025-08-10 23:32:05.725 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:32:05.931 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:32:05.934 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:32:05.934 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:32:05.934 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:32:07.831 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:32:08.554 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:32:08.557 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromCartTest
+2025-08-10 23:32:10.052 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromCartTest
+2025-08-10 23:32:10.054 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:32:11.028 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:32:11.032 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:32:11.032 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:32:11.033 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:32:11.964 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:32:12.610 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:32:12.615 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductDetailsPageTest
+2025-08-10 23:32:14.174 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductDetailsPageTest
+2025-08-10 23:32:14.175 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:32:14.386 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:32:14.388 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:32:14.388 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:32:14.388 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:32:15.513 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:32:15.687 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:32:15.691 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: removeProductFromProductPageTest
+2025-08-10 23:32:18.155 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: removeProductFromProductPageTest
+2025-08-10 23:32:18.156 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:32:18.368 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:32:18.373 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Adding and Removing items Test
+2025-08-10 23:32:18.374 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Validating Logins Test
+2025-08-10 23:32:18.375 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:32:18.375 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Validating Logins Test
+2025-08-10 23:32:18.376 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:32:18.377 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:32:18.377 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:32:19.330 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:32:19.963 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:32:19.965 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:32:20.437 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: lockedOutUserLoginTest
+2025-08-10 23:32:20.438 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:32:20.645 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:32:20.650 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:32:20.651 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:32:20.652 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:32:21.736 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:32:21.968 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:32:21.970 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validPerformanceUserLoginTest
+2025-08-10 23:32:28.920 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validPerformanceUserLoginTest
+2025-08-10 23:32:28.922 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:32:29.143 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:32:29.148 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:32:29.149 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:32:29.149 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:32:30.169 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:32:31.002 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:32:31.066 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validProblemUserLoginTest
+2025-08-10 23:32:32.065 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validProblemUserLoginTest
+2025-08-10 23:32:32.067 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:32:32.409 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:32:32.413 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:32:32.414 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:32:32.414 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:32:33.669 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:32:34.356 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:32:34.358 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: validStandardUserLoginTest
+2025-08-10 23:32:35.030 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: validStandardUserLoginTest
+2025-08-10 23:32:35.034 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:32:35.309 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:32:35.312 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Validating Logins Test
+2025-08-10 23:32:35.313 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: Adding and Removing Products Functionality Test
+2025-08-10 23:32:35.313 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:32:35.313 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Adding and Removing Products Functionality Test
+2025-08-10 23:32:35.315 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:32:35.315 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:32:35.315 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:32:36.301 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:32:37.225 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:32:37.230 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: checkingOnProductsAfterLogoutTest
+2025-08-10 23:32:40.077 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: checkingOnProductsAfterLogoutTest
+2025-08-10 23:32:40.079 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:32:40.382 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:32:40.393 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Adding and Removing Products Functionality Test
+2025-08-10 23:52:48.482 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\eclipse-workspace\SwagLabsProject\TestNG_Suites\FullOrder.xml
+
+2025-08-10 23:52:48.510 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test suite started: Submit Order Test
+2025-08-10 23:52:48.525 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:52:48.525 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: Submit Order Test
+2025-08-10 23:52:48.821 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:52:48.823 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:52:48.823 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:52:51.679 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:52:52.620 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:52:52.686 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:52:54.288 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:52:54.293 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:52:54.598 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:52:54.603 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:52:54.604 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:52:54.604 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:52:55.688 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:52:56.268 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:52:56.271 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:52:59.450 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:52:59.451 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:53:00.597 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:53:00.601 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:53:00.601 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:53:00.601 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:53:01.703 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:53:02.329 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:53:02.333 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidE2eTest
+2025-08-10 23:53:04.125 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidE2eTest
+2025-08-10 23:53:04.127 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:53:04.485 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:53:04.544 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:53:04.545 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:53:04.545 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:53:05.540 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:53:06.142 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:53:06.165 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:53:08.781 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:53:08.784 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:53:09.003 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:53:09.009 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:53:09.009 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:53:09.009 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:53:09.892 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:53:10.097 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:53:10.104 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:53:12.269 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:53:12.272 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:53:12.772 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:53:12.776 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:53:12.776 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:53:12.776 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:53:14.608 [TestNG-tests-1] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:53:14.821 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:53:14.824 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Starting test: validE2eTest
+2025-08-10 23:53:17.543 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test passed: validE2eTest
+2025-08-10 23:53:17.544 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:53:17.768 [TestNG-tests-1] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:53:17.775 [TestNG-tests-1] INFO  swagLabsMain.utils.AllureListener - Test suite finished: Submit Order Test
+2025-08-10 23:58:56.480 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-10 23:58:56.505 [main] INFO  swagLabsMain.utils.AllureListener - Test suite started: SwagLabsProject
+2025-08-10 23:58:56.524 [main] INFO  swagLabsMain.utils.AllureListener - Created environment.properties file for Allure reports
+2025-08-10 23:58:56.524 [main] INFO  swagLabsMain.utils.AllureListener - Initialized environment for suite: SwagLabsProject
+2025-08-10 23:58:56.570 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:58:56.572 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:58:56.572 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:58:58.483 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:58:59.215 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:58:59.578 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: blankAllLoginTest
+2025-08-10 23:58:59.975 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: blankAllLoginTest
+2025-08-10 23:58:59.979 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:59:00.583 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:59:00.590 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:59:00.591 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:59:00.591 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:59:02.065 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:59:02.254 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:59:02.258 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: blankPasswordLoginTest
+2025-08-10 23:59:04.123 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: blankPasswordLoginTest
+2025-08-10 23:59:04.125 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:59:04.502 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:59:04.561 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:59:04.561 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:59:04.562 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:59:06.433 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:59:07.070 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:59:07.072 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: blankUsernameLoginTest
+2025-08-10 23:59:07.540 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: blankUsernameLoginTest
+2025-08-10 23:59:07.542 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:59:08.126 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:59:08.134 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:59:08.134 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:59:08.134 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:59:09.953 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:59:10.124 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:59:10.131 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidPasswordLoginTest
+2025-08-10 23:59:12.346 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidPasswordLoginTest
+2025-08-10 23:59:12.348 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:59:12.592 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:59:12.596 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:59:12.596 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:59:12.596 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:59:14.214 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:59:14.418 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:59:14.423 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidUsernameLoginTest
+2025-08-10 23:59:16.607 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidUsernameLoginTest
+2025-08-10 23:59:16.611 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:59:17.016 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:59:17.022 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:59:17.022 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:59:17.022 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:59:18.094 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:59:18.261 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:59:18.265 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:59:19.339 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: lockedOutUserLoginTest
+2025-08-10 23:59:19.341 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:59:19.635 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:59:19.642 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:59:19.643 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:59:19.643 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:59:21.101 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:59:21.322 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:59:21.324 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:59:22.604 [main] INFO  swagLabsMain.utils.AllureListener - Test skipped: lockedOutUserLoginTest
+2025-08-10 23:59:22.605 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:59:24.464 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:59:24.467 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-10 23:59:24.468 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-10 23:59:24.468 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-10 23:59:25.555 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-10 23:59:26.226 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-10 23:59:26.230 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-10 23:59:27.057 [main] ERROR swagLabsMain.utils.AllureListener - Test failed: lockedOutUserLoginTest - expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
+2025-08-10 23:59:27.058 [main] ERROR swagLabsMain.utils.AllureListener - Driver field not found in test class: lockedOutUserLoginTest
+java.lang.NoSuchFieldException: driver
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+	at swagLabsMain.utils.AllureListener.getWebDriverInstance(AllureListener.java:96)
+	at swagLabsMain.utils.AllureListener.onTestFailure(AllureListener.java:48)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2025-08-10 23:59:27.064 [main] ERROR swagLabsMain.utils.AllureListener - Could not get WebDriver instance for failed test: lockedOutUserLoginTest
+2025-08-10 23:59:27.071 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-10 23:59:27.396 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-10 23:59:27.406 [main] INFO  swagLabsMain.utils.AllureListener - Test suite finished: SwagLabsProject

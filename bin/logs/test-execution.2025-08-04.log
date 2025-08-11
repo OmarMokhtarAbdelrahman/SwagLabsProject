@@ -1,0 +1,488 @@
+2025-08-04 00:03:29.246 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\eclipse-workspace\SwagLabsProject\TestNG_Suites\LoginErrorValidations.xml
+
+2025-08-04 00:03:29.298 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 00:03:29.299 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 00:03:29.300 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 00:03:31.138 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 00:03:33.046 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 00:03:33.598 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: blankAllLoginTest
+2025-08-04 00:03:34.614 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: blankAllLoginTest
+2025-08-04 00:03:34.623 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 00:03:34.752 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 00:03:34.757 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 00:03:34.760 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 00:03:34.760 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 00:03:35.494 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 00:03:36.087 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 00:03:36.091 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: blankPasswordLoginTest
+2025-08-04 00:03:36.439 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: blankPasswordLoginTest
+2025-08-04 00:03:36.442 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 00:03:36.554 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 00:03:36.557 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 00:03:36.557 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 00:03:36.557 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 00:03:37.372 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 00:03:38.013 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 00:03:38.017 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: blankUsernameLoginTest
+2025-08-04 00:03:38.357 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: blankUsernameLoginTest
+2025-08-04 00:03:38.375 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 00:03:38.518 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 00:03:38.521 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 00:03:38.521 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 00:03:38.522 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 00:03:39.335 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 00:03:39.960 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 00:03:39.964 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidPasswordLoginTest
+2025-08-04 00:03:40.405 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidPasswordLoginTest
+2025-08-04 00:03:40.407 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 00:03:40.532 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 00:03:40.540 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 00:03:40.543 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 00:03:40.543 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 00:03:41.381 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 00:03:41.961 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 00:03:41.964 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: invalidUsernameLoginTest
+2025-08-04 00:03:42.453 [main] INFO  swagLabsMain.utils.AllureListener - Test passed: invalidUsernameLoginTest
+2025-08-04 00:03:42.454 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 00:03:42.573 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 00:03:42.577 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 00:03:42.578 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 00:03:42.578 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 00:03:43.415 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 00:03:43.998 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 00:03:44.002 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-04 00:03:44.512 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 00:03:44.760 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 00:03:44.762 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 00:03:44.763 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 00:03:44.763 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 00:03:45.707 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 00:03:46.317 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 00:03:46.320 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-04 00:03:46.788 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 00:03:46.898 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 00:03:46.900 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 00:03:46.901 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 00:03:46.901 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 00:03:47.647 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 00:03:48.244 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 00:03:48.245 [main] INFO  swagLabsMain.utils.AllureListener - Starting test: lockedOutUserLoginTest
+2025-08-04 00:03:48.742 [main] ERROR swagLabsMain.utils.AllureListener - Test failed: lockedOutUserLoginTest - expected [Epic sadface: Sorry, this user has been locked.] but found [Epic sadface: Sorry, this user has been locked out.]
+2025-08-04 00:03:48.798 [main] INFO  swagLabsMain.utils.AllureListener - Screenshot captured for test: lockedOutUserLoginTest
+2025-08-04 00:03:48.805 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 00:03:48.989 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 00:58:02.801 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 00:58:02.852 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 00:58:02.857 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 00:58:02.857 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 00:58:26.702 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 00:58:27.402 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 00:58:28.295 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 00:58:28.457 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 00:58:40.353 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 00:58:40.419 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 00:58:40.422 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 00:58:40.423 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 00:58:41.955 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 00:58:42.562 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 00:58:43.379 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 00:58:43.508 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 00:59:20.209 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 00:59:20.271 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 00:59:20.272 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 00:59:20.273 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 00:59:21.507 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 00:59:22.087 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 00:59:23.004 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 00:59:23.156 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:16:07.472 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:16:07.517 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:16:07.539 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:16:07.539 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:16:09.091 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:16:09.953 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:16:10.928 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:16:11.075 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:16:11.081 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:16:11.086 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:16:11.086 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:16:11.863 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:16:12.461 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:16:13.165 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:16:13.287 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:16:13.289 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:16:13.290 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:16:13.290 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:16:14.018 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:16:14.611 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:16:15.507 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:16:15.644 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:16:15.653 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:16:15.654 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:16:15.655 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:16:16.480 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:16:17.089 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:16:18.055 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:16:18.184 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:16:18.187 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:16:18.188 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:16:18.188 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:16:19.049 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:16:19.676 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:16:20.555 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:16:20.672 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:16:20.674 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:16:20.675 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:16:20.675 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:16:21.557 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:16:22.163 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:16:23.197 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:16:23.329 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:16:23.332 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:16:23.333 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:16:23.333 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:16:24.067 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:16:24.672 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:16:25.665 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:16:25.780 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:16:25.784 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:16:25.785 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:16:25.785 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:16:26.590 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:16:27.160 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:16:28.156 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:16:28.311 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:16:28.314 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:16:28.315 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:16:28.316 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:16:29.125 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:16:29.772 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:16:30.573 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:16:30.697 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:16:30.699 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:16:30.700 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:16:30.700 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:16:31.504 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:16:32.070 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:16:32.955 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:16:33.108 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:16:33.114 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:16:33.115 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:16:33.116 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:16:33.919 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:16:34.539 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:16:35.263 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:16:35.382 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:18:29.489 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:18:29.543 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:18:29.549 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:18:29.549 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:18:31.133 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:18:31.954 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:18:33.140 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:18:33.308 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:18:33.316 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:18:33.323 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:18:33.323 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:18:45.522 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:18:45.733 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:18:45.739 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:18:45.739 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:18:48.332 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:18:49.354 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:18:51.029 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:18:51.194 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:18:51.197 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:18:51.200 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:18:51.201 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:18:52.295 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:18:53.094 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:18:54.326 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:18:54.467 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:18:54.473 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:18:54.476 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:18:54.476 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:18:55.343 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:18:55.998 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:18:57.408 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:18:57.622 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:28:22.215 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:28:22.271 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:28:22.287 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:28:22.288 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:28:23.926 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:28:24.540 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:28:25.626 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:28:25.779 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:31:29.071 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:31:29.289 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:31:29.293 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:31:29.293 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:31:31.878 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:31:32.486 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:31:33.848 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:31:34.010 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:31:56.623 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:31:56.781 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:31:56.797 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:31:56.797 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:31:59.014 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:31:59.655 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:32:00.891 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:32:01.032 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:32:05.431 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:32:05.496 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:32:05.497 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:32:05.498 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:32:06.788 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:32:07.419 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:32:08.374 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:32:08.510 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:32:50.649 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:32:50.718 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:32:50.720 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:32:50.720 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:32:51.933 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:32:52.531 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:32:53.641 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:32:53.797 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:37:16.378 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:37:16.446 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:37:16.447 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:37:16.448 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:37:17.846 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:37:18.571 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:37:19.673 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:37:19.794 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:37:19.800 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:37:19.803 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:37:19.803 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:37:20.533 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:37:21.116 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:37:21.798 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:37:21.909 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:37:21.917 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:37:21.919 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:37:21.919 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:37:22.643 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:37:23.213 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:37:24.061 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:37:24.196 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:37:24.199 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:37:24.200 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:37:24.200 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:37:24.938 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:37:25.517 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:37:26.392 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:37:26.514 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:37:26.517 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:37:26.517 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:37:26.517 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:37:27.255 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:37:27.839 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:37:28.682 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:37:28.805 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:37:28.807 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:37:28.808 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:37:28.808 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:37:29.554 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:37:30.170 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:37:31.158 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:37:31.280 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:37:31.282 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:37:31.282 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:37:31.282 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:37:32.074 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:37:32.682 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:37:33.640 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:37:33.775 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:37:33.780 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:37:33.782 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:37:33.782 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:37:34.527 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:37:35.085 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:37:36.054 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:37:36.183 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:37:36.186 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:37:36.187 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:37:36.187 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:37:36.906 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:37:37.496 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:37:38.274 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:37:38.414 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:37:38.416 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:37:38.417 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:37:38.417 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:37:39.162 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:37:39.757 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:37:40.524 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:37:40.649 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:37:40.655 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:37:40.657 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:37:40.657 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:37:41.459 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:37:42.124 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:37:42.836 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:37:42.975 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:39:07.910 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:39:07.960 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:39:07.964 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:39:07.965 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:39:09.157 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:39:09.714 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:39:10.661 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:39:10.797 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:39:19.044 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:39:19.098 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:39:19.099 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:39:19.099 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:39:20.393 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:39:20.963 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:39:21.809 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:39:21.951 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:39:21.956 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:39:21.959 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:39:21.959 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:39:22.730 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:39:23.296 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:39:23.957 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:39:24.071 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:39:24.074 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:39:24.075 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:39:24.075 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:39:24.862 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:39:25.419 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:39:26.283 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:39:26.423 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:39:26.430 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:39:26.431 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:39:26.432 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:39:27.131 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:39:27.701 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:39:28.798 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:39:28.928 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:39:28.931 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:39:28.932 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:39:28.932 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:39:29.677 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:39:30.271 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:39:31.036 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:39:31.158 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:42:59.983 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:43:00.039 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:43:00.040 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:43:00.041 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:43:01.695 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:43:02.325 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:43:03.341 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:43:03.471 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:43:03.477 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:43:03.481 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:43:03.481 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:43:04.229 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:43:04.797 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:43:05.532 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:43:05.658 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:43:05.666 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:43:05.669 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:43:05.669 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:43:06.548 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:43:07.119 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:43:07.987 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:43:08.111 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:43:08.113 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:43:08.114 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:43:08.114 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:43:08.834 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:43:09.429 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:43:10.511 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:43:10.636 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:43:10.639 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:43:10.640 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:43:10.640 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:43:11.383 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:43:12.136 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:43:12.983 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:43:13.126 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:59:10.207 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:59:52.927 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 01:59:53.163 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:59:53.233 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:59:53.233 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:59:55.772 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:59:56.443 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 01:59:58.088 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 01:59:58.217 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 01:59:58.220 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 01:59:58.223 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 01:59:58.223 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 01:59:58.986 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 01:59:59.583 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 02:00:01.241 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 02:00:01.424 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 02:00:01.428 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 02:00:01.428 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 02:00:01.428 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 02:00:02.268 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 02:00:02.860 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 02:00:04.186 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 02:00:04.331 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 02:05:56.136 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\welcome\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-08-04 02:05:56.366 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 02:05:56.367 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 02:05:56.368 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 02:05:57.957 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 02:05:58.565 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 02:06:00.173 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 02:06:00.318 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 02:06:00.321 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 02:06:00.324 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 02:06:00.324 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 02:06:01.075 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 02:06:01.670 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 02:06:03.114 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 02:06:03.238 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
+2025-08-04 02:06:03.241 [main] INFO  s.testComponents.BaseTest - Starting test setup - launching application
+2025-08-04 02:06:03.242 [main] INFO  swagLabsMain.driver.DriverFactory - Loading browser configuration from properties file
+2025-08-04 02:06:03.242 [main] INFO  swagLabsMain.driver.DriverFactory - Initializing browser: chrome
+2025-08-04 02:06:03.977 [main] INFO  swagLabsMain.driver.DriverFactory - Chrome browser initialized successfully
+2025-08-04 02:06:04.820 [main] INFO  s.testComponents.BaseTest - Application launched successfully
+2025-08-04 02:06:06.274 [main] INFO  s.testComponents.BaseTest - Starting test cleanup - tearing down driver
+2025-08-04 02:06:06.395 [main] INFO  s.testComponents.BaseTest - Driver quit successfully
