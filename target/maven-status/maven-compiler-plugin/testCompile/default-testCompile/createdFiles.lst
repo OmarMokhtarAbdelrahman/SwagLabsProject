@@ -1,0 +1,7 @@
+swagLabsTests\testComponents\BaseTest.class
+swagLabsTests\tests\productManagement\AddingAndRemovingProductsTest.class
+swagLabsTests\tests\cart\CheckingCartAfterLogoutTests.class
+swagLabsTests\tests\login\LoginErrorValidationsTests.class
+swagLabsTests\tests\checkout\CheckoutErrorValidationsTests.class
+swagLabsTests\tests\login\ValidLoginTests.class
+swagLabsTests\tests\e2e\SubmittingOrderTests.class

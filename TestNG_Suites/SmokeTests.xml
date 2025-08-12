@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Suite">
+<suite name="Suite" parallel="methods" thread-count="5">
 
 	<groups>
         <run>
@@ -13,31 +13,31 @@
 	<listener class-name="swagLabsMain.utils.AllureListener"/>
 </listeners>
 
-  <test thread-count="5" name="Validation Full Order Test">
+  <test  name="Validation Full Order Test">
     <classes>
       <class name="swagLabsTests.tests.e2e.SubmittingOrderTests"/>
     </classes>   
   </test>
   
-  <test thread-count="5" name="Validating Adding and Removing items Test">
+  <test name="Validating Adding and Removing items Test">
     <classes>
       <class name="swagLabsTests.tests.productManagement.AddingAndRemovingProductsTest"/>
     </classes>   
   </test>
   
-  <test thread-count="5" name="Validating Logins Test">
+  <test name="Validating Logins Test">
     <classes>
       <class name="swagLabsTests.tests.login.ValidLoginTests"/>
     </classes>   
   </test>
   
-  <test thread-count="5" name="Adding and Removing Products Functionality Test">
+  <test name="Adding and Removing Products Functionality Test">
    	<classes>
     	<class name="swagLabsTests.tests.cart.CheckingCartAfterLogoutTests"/>
     </classes>
   </test>
   
-  <test thread-count="5" name="Checkout Error Validations Test">
+  <test name="Checkout Error Validations Test">
    	<classes>
     	<class name="swagLabsTests.tests.checkout.CheckoutErrorValidationsTests"/>
     </classes>

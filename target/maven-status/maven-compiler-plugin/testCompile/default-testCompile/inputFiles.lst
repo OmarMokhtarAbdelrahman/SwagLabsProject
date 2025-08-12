@@ -1,7 +1,7 @@
-D:\eclipse-workspace\SwagLabsProject\src\test\java\swagLabsTests\testComponents\BaseTest.java
-D:\eclipse-workspace\SwagLabsProject\src\test\java\swagLabsTests\tests\cart\CheckingCartAfterLogoutTests.java
-D:\eclipse-workspace\SwagLabsProject\src\test\java\swagLabsTests\tests\checkout\CheckoutErrorValidationsTests.java
-D:\eclipse-workspace\SwagLabsProject\src\test\java\swagLabsTests\tests\e2e\SubmittingOrderTests.java
-D:\eclipse-workspace\SwagLabsProject\src\test\java\swagLabsTests\tests\login\LoginErrorValidationsTests.java
-D:\eclipse-workspace\SwagLabsProject\src\test\java\swagLabsTests\tests\login\ValidLoginTests.java
-D:\eclipse-workspace\SwagLabsProject\src\test\java\swagLabsTests\tests\productManagement\AddingAndRemovingProductsTest.java
+C:\Users\Omar.Mokhtar\IdeaProjects\SwagLabsProjectFinal\src\test\java\swagLabsTests\testComponents\BaseTest.java
+C:\Users\Omar.Mokhtar\IdeaProjects\SwagLabsProjectFinal\src\test\java\swagLabsTests\tests\cart\CheckingCartAfterLogoutTests.java
+C:\Users\Omar.Mokhtar\IdeaProjects\SwagLabsProjectFinal\src\test\java\swagLabsTests\tests\checkout\CheckoutErrorValidationsTests.java
+C:\Users\Omar.Mokhtar\IdeaProjects\SwagLabsProjectFinal\src\test\java\swagLabsTests\tests\e2e\SubmittingOrderTests.java
+C:\Users\Omar.Mokhtar\IdeaProjects\SwagLabsProjectFinal\src\test\java\swagLabsTests\tests\login\LoginErrorValidationsTests.java
+C:\Users\Omar.Mokhtar\IdeaProjects\SwagLabsProjectFinal\src\test\java\swagLabsTests\tests\login\ValidLoginTests.java
+C:\Users\Omar.Mokhtar\IdeaProjects\SwagLabsProjectFinal\src\test\java\swagLabsTests\tests\productManagement\AddingAndRemovingProductsTest.java

@@ -1,6 +1,7 @@
 package swagLabsTests.testComponents;
 
 import java.io.IOException;
+import java.sql.Driver;
 
 import swagLabsMain.utils.BrowserActions;
 import org.openqa.selenium.WebDriver;
@@ -22,22 +23,18 @@ public class BaseTest {
 	public LoginPage loginPage;
 	private static final Logger logger = LoggingUtility.getLogger(BaseTest.class);
 
-	private WebDriver initializeDriver() throws IOException {
-		return DriverFactory.initializeDriver();
-	}
-
 	@BeforeMethod(alwaysRun = true)
 	public LoginPage launchApp() throws IOException {
         logger.info("Starting test setup - launching application");
         
-        driver = initializeDriver();
+        DriverFactory.initializeDriver();
         
-        if (driver == null) {
+        if (DriverFactory.getDriver() == null) {
             throw new RuntimeException("Failed to initialize WebDriver");
         }
         
-        BrowserActions.navigateToLoginPage(driver , "https://www.saucedemo.com/");
-        loginPage = new LoginPage(driver);
+        BrowserActions.navigateToLoginPage(DriverFactory.getDriver(), "https://www.saucedemo.com/");
+        loginPage = new LoginPage(DriverFactory.getDriver());
         logger.info("Application launched successfully");
         return loginPage;
     }
@@ -50,7 +47,7 @@ public class BaseTest {
 		
 		try {
 			if (driver != null) {
-				driver.quit();
+				DriverFactory.quitDriver();
 				logger.info("Driver quit successfully");
 			}
 		} catch (Exception e) {
