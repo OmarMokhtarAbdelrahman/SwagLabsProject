@@ -1,7 +1,6 @@
 package swagLabsTests.testComponents;
 
 import java.io.IOException;
-import java.sql.Driver;
 
 import swagLabsMain.utils.BrowserActions;
 import org.openqa.selenium.WebDriver;
