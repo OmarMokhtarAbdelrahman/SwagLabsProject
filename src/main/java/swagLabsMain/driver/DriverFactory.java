@@ -61,11 +61,11 @@ public class DriverFactory {
             logger.info("Chrome browser initialized successfully");
 
         } else if (browserName.equalsIgnoreCase("edge")) {
-            WebDriverManager.edgedriver().setup();
+            System.setProperty("webdriver.edge.driver" , "C:\\Users\\welcome\\Downloads\\edgedriver_win64\\msedgedriver.exe");
             final EdgeOptions edgeOptions = new EdgeOptions();
             edgeOptions.addArguments("start-maximized");
             edgeOptions.addArguments("--disable-notifications");
-            //edgeOptions.addArguments("--headless");
+            edgeOptions.addArguments("--headless");
             edgeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 
             localDriver = new EdgeDriver(edgeOptions);
